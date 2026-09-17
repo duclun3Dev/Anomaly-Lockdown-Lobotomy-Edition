@@ -244,7 +244,7 @@
     {
       "type": "group",
       "name": "elite themes",
-      "expanded": true,
+      "expanded": false,
       "children": [
         {
           "name": "radiotelegrapher theme",
@@ -608,7 +608,7 @@
         {
           "type": "group",
           "name": "ui",
-          "expanded": true,
+          "expanded": false,
           "children": [
             {
               "name": "prompt ui start",
@@ -1255,7 +1255,7 @@
           ],
           "mode": "id",
           "enabled": true,
-          "with_id": 4227018126
+          "with_id": 130507239971301
         },
         {
           "name": "m93r textures",
@@ -1417,7 +1417,7 @@
     {
       "type": "group",
       "name": "unsorted",
-      "expanded": false,
+      "expanded": true,
       "children": [
         {
           "name": "tx08 mesh",
@@ -1456,13 +1456,29 @@
           "with_id": 2568919334
         },
         {
-          "name": "beretta slide",
-          "replace_ids": [
-            138940919213449
-          ],
-          "mode": "id",
-          "enabled": false,
-          "with_id": 13383960485
+          "type": "group",
+          "name": "beretta project",
+          "expanded": true,
+          "children": [
+            {
+              "name": "beretta slide",
+              "replace_ids": [
+                104779820357570
+              ],
+              "mode": "id",
+              "enabled": true,
+              "with_id": 74609539644612
+            },
+            {
+              "name": "beretta handle",
+              "replace_ids": [
+                128854594477764
+              ],
+              "mode": "id",
+              "enabled": true,
+              "with_id": 72878264217702
+            }
+          ]
         },
         {
           "name": "think this is ksg texture",
@@ -1489,15 +1505,6 @@
           "mode": "id",
           "enabled": false,
           "with_id": 777585373
-        },
-        {
-          "name": "beretta handle",
-          "replace_ids": [
-            128854594477764
-          ],
-          "mode": "id",
-          "enabled": false,
-          "with_id": 90453760815969
         },
         {
           "name": "ci mask textures",
@@ -1855,7 +1862,7 @@
       ]
     },
     {
-      "name": "navigator beep im assuming",
+      "name": "navigator beep",
       "replace_ids": [
         6712518240
       ],
@@ -1873,13 +1880,13 @@
       "with_id": 1840529306
     },
     {
-      "name": "idk what beep this is",
+      "name": "radio transmitter start",
       "replace_ids": [
         9119104660
       ],
       "mode": "id",
       "enabled": true,
-      "with_id": 9067330158
+      "with_id": 120891770644830
     },
     {
       "name": "nuke announcement",
@@ -1900,12 +1907,12 @@
       "with_id": 85362242154153
     },
     {
-      "name": "457 fire i think",
+      "name": "incendiary fire",
       "replace_ids": [
         1038411245
       ],
       "mode": "id",
-      "enabled": true,
+      "enabled": false,
       "with_id": 16161023805
     },
     {
@@ -1916,6 +1923,70 @@
       "mode": "id",
       "enabled": true,
       "with_id": 107735901192534
+    },
+    {
+      "type": "group",
+      "name": "anims (COULD GET FLAGGED BY ROBLOX ANTI CHEAT)",
+      "expanded": false,
+      "children": [
+        {
+          "name": "vitamin drink anims",
+          "replace_ids": [
+            136423039992978
+          ],
+          "mode": "id",
+          "enabled": false,
+          "with_id": 125344882720830
+        }
+      ]
+    },
+    {
+      "name": "warper sound",
+      "replace_ids": [
+        124811486690011
+      ],
+      "mode": "id",
+      "enabled": true,
+      "with_id": 4826619573
+    },
+    {
+      "name": "intercom start",
+      "replace_ids": [
+        115213466905339
+      ],
+      "mode": "id",
+      "enabled": true,
+      "with_id": 9067330158
+    },
+    {
+      "name": "commander rally i think",
+      "replace_ids": [
+        117454446221242
+      ],
+      "mode": "id",
+      "enabled": true,
+      "with_id": 115251316814736
+    },
+    {
+      "name": "alarm",
+      "replace_ids": [
+        134697739
+      ],
+      "mode": "id",
+      "enabled": true,
+      "with_id": 104914326130177
+    },
+    {
+      "name": "scp encounters",
+      "replace_ids": [
+        99393358792879,
+        4896837434,
+        99127000238695,
+        116304493868701
+      ],
+      "mode": "id",
+      "enabled": true,
+      "with_id": 109125638226173
     }
   ]
 }
