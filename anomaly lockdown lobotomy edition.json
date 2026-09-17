@@ -129,7 +129,7 @@
           ],
           "mode": "id",
           "enabled": true,
-          "with_id": 102507627116001
+          "with_id": 78254311622616
         },
         {
           "name": "serpent tooth fire",
@@ -237,7 +237,7 @@
           ],
           "mode": "id",
           "enabled": true,
-          "with_id": 2904783359
+          "with_id": 30324676
         }
       ]
     },
@@ -262,7 +262,7 @@
           ],
           "mode": "id",
           "enabled": true,
-          "with_id": 1845756489
+          "with_id": 112866115008172
         },
         {
           "name": "Flametrooper theme",
@@ -271,7 +271,7 @@
           ],
           "mode": "id",
           "enabled": true,
-          "with_id": 1842241530
+          "with_id": 111087324430075
         },
         {
           "name": "wanderer theme",
@@ -280,7 +280,7 @@
           ],
           "mode": "id",
           "enabled": true,
-          "with_id": 1846458016
+          "with_id": 5410086218
         },
         {
           "name": "ironclad theme",
@@ -289,7 +289,7 @@
           ],
           "mode": "id",
           "enabled": true,
-          "with_id": 1868412193
+          "with_id": 1838457617
         },
         {
           "name": "director theme",
@@ -297,7 +297,8 @@
             132694554717566
           ],
           "mode": "id",
-          "enabled": false
+          "enabled": true,
+          "with_id": 110919391228823
         },
         {
           "name": "vanguard theme",
@@ -325,7 +326,7 @@
           ],
           "mode": "id",
           "enabled": true,
-          "with_id": 132046898251409
+          "with_id": 117581626943372
         },
         {
           "name": "lib rage theme",
@@ -334,7 +335,16 @@
           ],
           "mode": "id",
           "enabled": true,
-          "with_id": 1837843587
+          "with_id": 95131770144654
+        },
+        {
+          "name": "lib rage scream i think",
+          "replace_ids": [
+            129030793324292
+          ],
+          "mode": "id",
+          "enabled": true,
+          "with_id": 128949891180840
         }
       ]
     },
@@ -470,7 +480,7 @@
     {
       "type": "group",
       "name": "common sounds",
-      "expanded": false,
+      "expanded": true,
       "children": [
         {
           "name": "rein footsteps",
@@ -573,9 +583,9 @@
           "replace_ids": [
             134442418324338
           ],
-          "mode": "id",
+          "mode": "local",
           "enabled": true,
-          "with_id": 1843098849
+          "local_path": "D:\\audacity\\music\\Alan Walker - Faded.mp3"
         },
         {
           "name": "lobby theme",
@@ -630,12 +640,21 @@
               "with_id": 136275224021234
             }
           ]
+        },
+        {
+          "name": "hitmarker",
+          "replace_ids": [
+            17724151829
+          ],
+          "mode": "id",
+          "enabled": true,
+          "with_id": 125235091454234
         }
       ]
     },
     {
       "type": "group",
-      "name": "scps",
+      "name": "scp sounds",
       "expanded": false,
       "children": [
         {
@@ -654,7 +673,7 @@
           ],
           "mode": "id",
           "enabled": true,
-          "with_id": 90529232162308
+          "with_id": 121029298195641
         },
         {
           "name": "abel rage",
@@ -700,21 +719,66 @@
           "mode": "id",
           "enabled": true,
           "with_id": 18941499994
+        },
+        {
+          "name": "096 ambience",
+          "replace_ids": [
+            132476475
+          ],
+          "mode": "id",
+          "enabled": true,
+          "with_id": 2796806401
+        },
+        {
+          "name": "966 CHASE THEME",
+          "replace_ids": [
+            122072337023849,
+            118124491140443
+          ],
+          "mode": "id",
+          "enabled": true
+        },
+        {
+          "name": "076 2 sword swing",
+          "replace_ids": [
+            138197788197920
+          ],
+          "mode": "id",
+          "enabled": true,
+          "with_id": 153647529
+        },
+        {
+          "name": "076 2 sword hit",
+          "replace_ids": [
+            138293953015099
+          ],
+          "mode": "id",
+          "enabled": true,
+          "with_id": 83643306484163
+        },
+        {
+          "name": "076 2 spear laugh",
+          "replace_ids": [
+            130132621789479
+          ],
+          "mode": "id",
+          "enabled": true,
+          "with_id": 103546876595285
+        },
+        {
+          "name": "066 symphony",
+          "replace_ids": [
+            1836280076
+          ],
+          "mode": "id",
+          "enabled": true,
+          "with_id": 136499160194453
         }
       ]
     },
     {
-      "name": "lib rage scream i think",
-      "replace_ids": [
-        129030793324292
-      ],
-      "mode": "id",
-      "enabled": true,
-      "with_id": 118262302064328
-    },
-    {
       "type": "group",
-      "name": "melees",
+      "name": "melee sounds",
       "expanded": false,
       "children": [
         {
@@ -756,14 +820,6 @@
       ]
     },
     {
-      "name": "035 mask texture",
-      "replace_ids": [
-        75542371158197
-      ],
-      "mode": "id",
-      "enabled": false
-    },
-    {
       "type": "group",
       "name": "common textures",
       "expanded": false,
@@ -774,8 +830,7 @@
             14875843482
           ],
           "mode": "id",
-          "enabled": false,
-          "with_id": 14875843482
+          "enabled": false
         },
         {
           "name": "pain indicator",
@@ -809,37 +864,47 @@
           ],
           "mode": "id",
           "enabled": false
+        },
+        {
+          "type": "group",
+          "name": "map textures",
+          "expanded": false,
+          "children": [
+            {
+              "name": "random poster 1",
+              "replace_ids": [
+                10551674031
+              ],
+              "mode": "id",
+              "enabled": true,
+              "with_id": 81465250457913
+            },
+            {
+              "name": "random poster 2",
+              "replace_ids": [
+                1616598619
+              ],
+              "mode": "id",
+              "enabled": true,
+              "with_id": 127490654248720
+            },
+            {
+              "name": "random poster 3",
+              "replace_ids": [
+                249402418
+              ],
+              "mode": "id",
+              "enabled": true,
+              "with_id": 138413773069026
+            }
+          ]
         }
       ]
     },
     {
-      "name": "elite circle",
-      "replace_ids": [
-        127530745580160
-      ],
-      "mode": "id",
-      "enabled": false
-    },
-    {
-      "name": "weird light",
-      "replace_ids": [
-        2623471397
-      ],
-      "mode": "id",
-      "enabled": false
-    },
-    {
-      "name": "ump? textures",
-      "replace_ids": [
-        568126642
-      ],
-      "mode": "id",
-      "enabled": false
-    },
-    {
       "type": "group",
       "name": "scp textures",
-      "expanded": true,
+      "expanded": false,
       "children": [
         {
           "name": "2006 shirts",
@@ -855,7 +920,7 @@
             5237596615
           ],
           "mode": "id",
-          "enabled": false
+          "enabled": true
         },
         {
           "name": "2006 pants",
@@ -864,7 +929,7 @@
           ],
           "mode": "id",
           "enabled": true,
-          "with_id": 12737530
+          "with_id": 64231073
         },
         {
           "name": "939 textures",
@@ -882,7 +947,7 @@
           ],
           "mode": "id",
           "enabled": true,
-          "with_id": 3250467832
+          "with_id": 105336161525105
         },
         {
           "name": "035 shirt",
@@ -926,7 +991,7 @@
           ],
           "mode": "id",
           "enabled": true,
-          "with_id": 12737530
+          "with_id": 64231073
         },
         {
           "name": "butler shirt",
@@ -943,7 +1008,7 @@
           ],
           "mode": "id",
           "enabled": true,
-          "with_id": 12737530
+          "with_id": 64231073
         },
         {
           "name": "0080 pants",
@@ -952,143 +1017,95 @@
           ],
           "mode": "id",
           "enabled": true,
-          "with_id": 12737530
-        }
-      ]
-    },
-    {
-      "name": "sus light",
-      "replace_ids": [
-        134531489
-      ],
-      "mode": "id",
-      "enabled": false
-    },
-    {
-      "name": "gradient light",
-      "replace_ids": [
-        74697410
-      ],
-      "mode": "id",
-      "enabled": false
-    },
-    {
-      "name": "skull",
-      "replace_ids": [
-        47110473
-      ],
-      "mode": "id",
-      "enabled": false
-    },
-    {
-      "name": "baton textures",
-      "replace_ids": [
-        4709332186
-      ],
-      "mode": "id",
-      "enabled": false
-    },
-    {
-      "name": "mp5 textures",
-      "replace_ids": [
-        91662554734974
-      ],
-      "mode": "id",
-      "enabled": false
-    },
-    {
-      "name": "beretta textures slide",
-      "replace_ids": [
-        13383960485
-      ],
-      "mode": "id",
-      "enabled": false
-    },
-    {
-      "name": "gps textures",
-      "replace_ids": [
-        11820196
-      ],
-      "mode": "id",
-      "enabled": false
-    },
-    {
-      "name": "ump textures",
-      "replace_ids": [
-        4715909289
-      ],
-      "mode": "id",
-      "enabled": false
-    },
-    {
-      "name": "glock textures",
-      "replace_ids": [
-        4716331467
-      ],
-      "mode": "id",
-      "enabled": false
-    },
-    {
-      "name": "m9s textures",
-      "replace_ids": [
-        542401826
-      ],
-      "mode": "id",
-      "enabled": false
-    },
-    {
-      "name": "m9s texture slide",
-      "replace_ids": [
-        519752192
-      ],
-      "mode": "id",
-      "enabled": false
-    },
-    {
-      "name": "ci mask textures",
-      "replace_ids": [
-        4875677569
-      ],
-      "mode": "id",
-      "enabled": false
-    },
-    {
-      "name": "commander ring",
-      "replace_ids": [
-        7216853898
-      ],
-      "mode": "id",
-      "enabled": false
-    },
-    {
-      "name": "melee impact effect",
-      "replace_ids": [
-        9711233339
-      ],
-      "mode": "id",
-      "enabled": false
-    },
-    {
-      "name": "db textures",
-      "replace_ids": [
-        81522035369963
-      ],
-      "mode": "id",
-      "enabled": false
-    },
-    {
-      "type": "group",
-      "name": "primary textures",
-      "expanded": true,
-      "children": [
+          "with_id": 64231073
+        },
         {
-          "name": "m249 textures",
+          "name": "087 head texturee",
           "replace_ids": [
-            537038414
+            95711113
+          ],
+          "mode": "id",
+          "enabled": true,
+          "with_id": 3250467832
+        },
+        {
+          "name": "2006 helmet",
+          "replace_ids": [
+            12304480
+          ],
+          "mode": "id",
+          "enabled": false,
+          "with_id": 167554469
+        },
+        {
+          "name": "abel rage face",
+          "replace_ids": [
+            434042160
+          ],
+          "mode": "id",
+          "enabled": true,
+          "with_id": 128943366040872
+        },
+        {
+          "name": "076 2 hair textures",
+          "replace_ids": [
+            913581010
+          ],
+          "mode": "id",
+          "enabled": true,
+          "with_id": 167554469
+        },
+        {
+          "name": "076 2 hair mesh",
+          "replace_ids": [
+            913578626
+          ],
+          "mode": "id",
+          "enabled": true,
+          "with_id": 167554431
+        },
+        {
+          "name": "076 2 face",
+          "replace_ids": [
+            210739973
+          ],
+          "mode": "id",
+          "enabled": true,
+          "with_id": 15431991
+        },
+        {
+          "name": "035 mask texture",
+          "replace_ids": [
+            75542371158197
           ],
           "mode": "id",
           "enabled": false
         },
+        {
+          "name": "049 textures",
+          "replace_ids": [
+            189033450
+          ],
+          "mode": "id",
+          "enabled": true,
+          "with_id": 105336161525105
+        },
+        {
+          "name": "049 hood",
+          "replace_ids": [
+            189029867
+          ],
+          "mode": "id",
+          "enabled": true,
+          "with_id": 3250467832
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "name": "primary textures",
+      "expanded": false,
+      "children": [
         {
           "name": "ak 47 textures",
           "replace_ids": [
@@ -1115,24 +1132,89 @@
           "mode": "id",
           "enabled": true,
           "with_id": 110111429361863
+        },
+        {
+          "name": "minigun textures",
+          "replace_ids": [
+            71947249
+          ],
+          "mode": "id",
+          "enabled": true,
+          "with_id": 5306814351
+        },
+        {
+          "name": "m249 textures",
+          "replace_ids": [
+            537038414
+          ],
+          "mode": "id",
+          "enabled": true,
+          "with_id": 2079700327
+        },
+        {
+          "name": "m4s textures",
+          "replace_ids": [
+            546505949
+          ],
+          "mode": "id",
+          "enabled": true,
+          "with_id": 2079700317
+        },
+        {
+          "name": "kriss textures",
+          "replace_ids": [
+            537039226
+          ],
+          "mode": "id",
+          "enabled": true,
+          "with_id": 6208306932
+        },
+        {
+          "name": "aug texture",
+          "replace_ids": [
+            97985799609254
+          ],
+          "mode": "id",
+          "enabled": true,
+          "with_id": 1265312440
+        },
+        {
+          "name": "f2000 textures",
+          "replace_ids": [
+            606877563
+          ],
+          "mode": "id",
+          "enabled": true,
+          "with_id": 113350640581604
+        },
+        {
+          "name": "famas textures",
+          "replace_ids": [
+            624874847
+          ],
+          "mode": "id",
+          "enabled": true,
+          "with_id": 130862481528072
+        },
+        {
+          "name": "m249 texture",
+          "replace_ids": [
+            537038414
+          ],
+          "mode": "id",
+          "enabled": true,
+          "with_id": 18627655963
+        },
+        {
+          "name": "scar textures",
+          "replace_ids": [
+            573144134
+          ],
+          "mode": "id",
+          "enabled": true,
+          "with_id": 126146246256151
         }
       ]
-    },
-    {
-      "name": "grenade textures",
-      "replace_ids": [
-        431532899
-      ],
-      "mode": "id",
-      "enabled": false
-    },
-    {
-      "name": "kriss textures",
-      "replace_ids": [
-        537039226
-      ],
-      "mode": "id",
-      "enabled": false
     },
     {
       "type": "group",
@@ -1147,78 +1229,109 @@
           "mode": "id",
           "enabled": true,
           "with_id": 17135342340
+        },
+        {
+          "name": "glock texture",
+          "replace_ids": [
+            4716331467
+          ],
+          "mode": "id",
+          "enabled": true,
+          "with_id": 10248444952
+        },
+        {
+          "name": "deagle textures",
+          "replace_ids": [
+            602886463
+          ],
+          "mode": "id",
+          "enabled": true,
+          "with_id": 71468099
+        },
+        {
+          "name": "beretta textures",
+          "replace_ids": [
+            13383960485
+          ],
+          "mode": "id",
+          "enabled": true,
+          "with_id": 4227018126
+        },
+        {
+          "name": "m93r textures",
+          "replace_ids": [
+            542401826
+          ],
+          "mode": "id",
+          "enabled": true,
+          "with_id": 10169396
+        },
+        {
+          "name": "mac 10 textures",
+          "replace_ids": [
+            14122380428
+          ],
+          "mode": "id",
+          "enabled": true,
+          "with_id": 106458736075546
         }
       ]
     },
     {
-      "name": "idk what gun this is",
-      "replace_ids": [
-        546505949
-      ],
-      "mode": "id",
-      "enabled": false
-    },
-    {
-      "name": "p90 textures",
-      "replace_ids": [
-        534672827
-      ],
-      "mode": "id",
-      "enabled": false
-    },
-    {
-      "name": "door textures",
-      "replace_ids": [
-        82300267,
-        275767020
-      ],
-      "mode": "id",
-      "enabled": false
-    },
-    {
-      "name": "lobby class d",
-      "replace_ids": [
-        770317906
-      ],
-      "mode": "id",
-      "enabled": true
-    },
-    {
-      "name": "navigator texture",
-      "replace_ids": [
-        11820196
-      ],
-      "mode": "id",
-      "enabled": false
-    },
-    {
-      "name": "beretta textures",
-      "replace_ids": [
-        602886463
-      ],
-      "mode": "id",
-      "enabled": false
-    },
-    {
-      "name": "butlerface",
-      "replace_ids": [
-        405706038
-      ],
-      "mode": "id",
-      "enabled": false
-    },
-    {
-      "name": "riot shield texture",
-      "replace_ids": [
-        113296834198635
-      ],
-      "mode": "id",
-      "enabled": false
+      "type": "group",
+      "name": "lobby drip",
+      "expanded": false,
+      "children": [
+        {
+          "name": "lobby class d",
+          "replace_ids": [
+            770317906
+          ],
+          "mode": "id",
+          "enabled": true
+        },
+        {
+          "name": "lobby class d pants",
+          "replace_ids": [
+            2964556905
+          ],
+          "mode": "id",
+          "enabled": true,
+          "with_id": 64231073
+        },
+        {
+          "name": "lobby vip shirt",
+          "replace_ids": [
+            17803167
+          ],
+          "mode": "id",
+          "enabled": true,
+          "with_id": 60953705
+        },
+        {
+          "name": "lobby vip pants",
+          "replace_ids": [
+            19189704
+          ],
+          "mode": "id",
+          "enabled": true,
+          "with_id": 60953340
+        },
+        {
+          "name": "spec mobile icon",
+          "replace_ids": [
+            4728060256
+          ],
+          "mode": "id",
+          "enabled": true,
+          "with_id": 12011714416
+        }
+      ]
     },
     {
       "type": "group",
       "name": "primary models",
-      "expanded": true,
+      "expanded": false,
       "children": [
         {
           "name": "ak47 model",
@@ -1241,13 +1354,505 @@
       ]
     },
     {
-      "name": "lobby class d pants",
-      "replace_ids": [
-        2964556905
-      ],
-      "mode": "id",
-      "enabled": true,
-      "with_id": 64231073
+      "type": "group",
+      "name": "melee assets",
+      "expanded": false,
+      "children": [
+        {
+          "name": "baton model",
+          "replace_ids": [
+            4709332116
+          ],
+          "mode": "id",
+          "enabled": false,
+          "with_id": 88635088515450
+        },
+        {
+          "name": "crowbar model",
+          "replace_ids": [
+            441564090
+          ],
+          "mode": "id",
+          "enabled": false,
+          "with_id": 18407875
+        },
+        {
+          "name": "crowbar textures",
+          "replace_ids": [
+            441564112
+          ],
+          "mode": "id",
+          "enabled": false,
+          "with_id": 18407865
+        },
+        {
+          "name": "knife textures",
+          "replace_ids": [
+            105305795092991
+          ],
+          "mode": "id",
+          "enabled": false,
+          "with_id": 121944805
+        },
+        {
+          "name": "knife mesh",
+          "replace_ids": [
+            96187641193010
+          ],
+          "mode": "id",
+          "enabled": false,
+          "with_id": 121944778
+        },
+        {
+          "name": "baton textures",
+          "replace_ids": [
+            4709332186
+          ],
+          "mode": "id",
+          "enabled": false,
+          "with_id": 71765181756511
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "name": "unsorted",
+      "expanded": false,
+      "children": [
+        {
+          "name": "tx08 mesh",
+          "replace_ids": [
+            92656610
+          ],
+          "mode": "id",
+          "enabled": false,
+          "with_id": 430279107
+        },
+        {
+          "name": "tx08 textures",
+          "replace_ids": [
+            92658105
+          ],
+          "mode": "id",
+          "enabled": false,
+          "with_id": 430279131
+        },
+        {
+          "name": "magnum texture i think",
+          "replace_ids": [
+            15974228923
+          ],
+          "mode": "id",
+          "enabled": false
+        },
+        {
+          "name": "beretta i think",
+          "replace_ids": [
+            104779820357570,
+            99758597413475
+          ],
+          "mode": "id",
+          "enabled": false,
+          "with_id": 2568919334
+        },
+        {
+          "name": "beretta slide",
+          "replace_ids": [
+            138940919213449
+          ],
+          "mode": "id",
+          "enabled": false,
+          "with_id": 13383960485
+        },
+        {
+          "name": "think this is ksg texture",
+          "replace_ids": [
+            519752192
+          ],
+          "mode": "id",
+          "enabled": false,
+          "with_id": 4227018126
+        },
+        {
+          "name": "butler face i think",
+          "replace_ids": [
+            405706038
+          ],
+          "mode": "id",
+          "enabled": false
+        },
+        {
+          "name": "apparently this is beretta textures",
+          "replace_ids": [
+            13383960485
+          ],
+          "mode": "id",
+          "enabled": false,
+          "with_id": 777585373
+        },
+        {
+          "name": "beretta handle",
+          "replace_ids": [
+            128854594477764
+          ],
+          "mode": "id",
+          "enabled": false,
+          "with_id": 90453760815969
+        },
+        {
+          "name": "ci mask textures",
+          "replace_ids": [
+            4875677569
+          ],
+          "mode": "id",
+          "enabled": false,
+          "with_id": 18012267
+        },
+        {
+          "name": "ci mask mesh",
+          "replace_ids": [
+            4875666431
+          ],
+          "mode": "id",
+          "enabled": false,
+          "with_id": 18012277
+        },
+        {
+          "name": "security helmet textures",
+          "replace_ids": [
+            5243417662
+          ],
+          "mode": "id",
+          "enabled": false,
+          "with_id": 3250467832
+        },
+        {
+          "name": "flametrooper mask",
+          "replace_ids": [
+            8928489498
+          ],
+          "mode": "id",
+          "enabled": false,
+          "with_id": 18232534676
+        },
+        {
+          "name": "ump model",
+          "replace_ids": [
+            99911572986011
+          ],
+          "mode": "id",
+          "enabled": false
+        },
+        {
+          "name": "scar texture",
+          "replace_ids": [
+            573144134
+          ],
+          "mode": "id",
+          "enabled": false
+        },
+        {
+          "name": "grup helmet mesh",
+          "replace_ids": [
+            114452938655338
+          ],
+          "mode": "id",
+          "enabled": false
+        },
+        {
+          "name": "machete mesh",
+          "replace_ids": [
+            123248347
+          ],
+          "mode": "id",
+          "enabled": false
+        },
+        {
+          "name": "butler meshes",
+          "replace_ids": [
+            13769677178,
+            6682380088,
+            86856230753312
+          ],
+          "mode": "id",
+          "enabled": false
+        },
+        {
+          "name": "delta mask mesh",
+          "replace_ids": [
+            4509266527
+          ],
+          "mode": "id",
+          "enabled": false
+        },
+        {
+          "name": "braced helmet mesh",
+          "replace_ids": [
+            616668195
+          ],
+          "mode": "id",
+          "enabled": false
+        },
+        {
+          "name": "braced armor mesh",
+          "replace_ids": [
+            2998641111
+          ],
+          "mode": "id",
+          "enabled": false
+        },
+        {
+          "name": "scorpion textures",
+          "replace_ids": [
+            4715950324
+          ],
+          "mode": "id",
+          "enabled": false
+        },
+        {
+          "name": "geist vest and mask",
+          "replace_ids": [
+            3768666835,
+            4727578300
+          ],
+          "mode": "id",
+          "enabled": false
+        },
+        {
+          "name": "ksg mesh",
+          "replace_ids": [
+            519752151
+          ],
+          "mode": "id",
+          "enabled": false
+        },
+        {
+          "name": "beretta?",
+          "replace_ids": [
+            104779820357570,
+            128854594477764
+          ],
+          "mode": "id",
+          "enabled": false
+        },
+        {
+          "name": "usp mesh",
+          "replace_ids": [
+            74624006631001
+          ],
+          "mode": "id",
+          "enabled": false
+        },
+        {
+          "name": "sus light",
+          "replace_ids": [
+            134531489
+          ],
+          "mode": "id",
+          "enabled": false
+        },
+        {
+          "name": "gradient light",
+          "replace_ids": [
+            74697410
+          ],
+          "mode": "id",
+          "enabled": false
+        },
+        {
+          "name": "skull",
+          "replace_ids": [
+            47110473
+          ],
+          "mode": "id",
+          "enabled": false
+        },
+        {
+          "name": "baton textures",
+          "replace_ids": [
+            4709332186
+          ],
+          "mode": "id",
+          "enabled": false
+        },
+        {
+          "name": "mp5 textures",
+          "replace_ids": [
+            91662554734974
+          ],
+          "mode": "id",
+          "enabled": false
+        },
+        {
+          "name": "beretta textures slide",
+          "replace_ids": [
+            13383960485
+          ],
+          "mode": "id",
+          "enabled": false
+        },
+        {
+          "name": "gps textures",
+          "replace_ids": [
+            11820196
+          ],
+          "mode": "id",
+          "enabled": false
+        },
+        {
+          "name": "ump textures",
+          "replace_ids": [
+            4715909289
+          ],
+          "mode": "id",
+          "enabled": false
+        },
+        {
+          "name": "glock textures",
+          "replace_ids": [
+            4716331467
+          ],
+          "mode": "id",
+          "enabled": false
+        },
+        {
+          "name": "m9s textures",
+          "replace_ids": [
+            542401826
+          ],
+          "mode": "id",
+          "enabled": false
+        },
+        {
+          "name": "m9s texture slide",
+          "replace_ids": [
+            519752192
+          ],
+          "mode": "id",
+          "enabled": false
+        },
+        {
+          "name": "ci mask textures",
+          "replace_ids": [
+            4875677569
+          ],
+          "mode": "id",
+          "enabled": false
+        },
+        {
+          "name": "commander ring",
+          "replace_ids": [
+            7216853898
+          ],
+          "mode": "id",
+          "enabled": false
+        },
+        {
+          "name": "melee impact effect",
+          "replace_ids": [
+            9711233339
+          ],
+          "mode": "id",
+          "enabled": false
+        },
+        {
+          "name": "db textures",
+          "replace_ids": [
+            81522035369963
+          ],
+          "mode": "id",
+          "enabled": false
+        },
+        {
+          "name": "grenade textures",
+          "replace_ids": [
+            431532899
+          ],
+          "mode": "id",
+          "enabled": false
+        },
+        {
+          "name": "idk what gun this is",
+          "replace_ids": [
+            546505949
+          ],
+          "mode": "id",
+          "enabled": false
+        },
+        {
+          "name": "p90 textures",
+          "replace_ids": [
+            534672827
+          ],
+          "mode": "id",
+          "enabled": false
+        },
+        {
+          "name": "door textures",
+          "replace_ids": [
+            82300267,
+            275767020
+          ],
+          "mode": "id",
+          "enabled": false
+        },
+        {
+          "name": "navigator texture",
+          "replace_ids": [
+            11820196
+          ],
+          "mode": "id",
+          "enabled": false
+        },
+        {
+          "name": "beretta textures",
+          "replace_ids": [
+            602886463
+          ],
+          "mode": "id",
+          "enabled": false
+        },
+        {
+          "name": "butlerface",
+          "replace_ids": [
+            405706038
+          ],
+          "mode": "id",
+          "enabled": false
+        },
+        {
+          "name": "riot shield texture",
+          "replace_ids": [
+            113296834198635
+          ],
+          "mode": "id",
+          "enabled": false
+        },
+        {
+          "name": "elite circle",
+          "replace_ids": [
+            127530745580160
+          ],
+          "mode": "id",
+          "enabled": false
+        },
+        {
+          "name": "weird light",
+          "replace_ids": [
+            2623471397
+          ],
+          "mode": "id",
+          "enabled": false
+        },
+        {
+          "name": "ump? textures",
+          "replace_ids": [
+            568126642
+          ],
+          "mode": "id",
+          "enabled": false
+        }
+      ]
     }
   ]
 }
