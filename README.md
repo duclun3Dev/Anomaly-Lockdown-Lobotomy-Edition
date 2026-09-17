@@ -6,9 +6,9 @@ step 3, Copy/Cut the json file
 
 step 4, in Fleasion, press "Open Configs..." and paste the json file there
 
-step 5, enable it above, the red circle should be green
+step 5, find the json you pasted in Configuration (click the drag down next to Enabled:), and check it, the red circle should become green and activate the mod
 
-step 6, clear cache (you should do this if you want to make your own changes to the mod), and play AL!
+step 6, press "Clear Cache", (you should do this every time if you want to make your own changes to the mod or make sure it works), and play AL!
 
 optional: go to Scraper and Enable Cache Scraper, since i need help compiling all of the data in the game!
 
