@@ -1280,7 +1280,7 @@
     {
       "type": "group",
       "name": "lobby drip",
-      "expanded": false,
+      "expanded": true,
       "children": [
         {
           "name": "lobby class d",
@@ -1288,7 +1288,8 @@
             770317906
           ],
           "mode": "id",
-          "enabled": true
+          "enabled": true,
+          "with_id": 0
         },
         {
           "name": "lobby class d pants",
@@ -1306,7 +1307,7 @@
           ],
           "mode": "id",
           "enabled": true,
-          "with_id": 60953705
+          "with_id": 77464817
         },
         {
           "name": "lobby vip pants",
@@ -1315,7 +1316,7 @@
           ],
           "mode": "id",
           "enabled": true,
-          "with_id": 60953340
+          "with_id": 77471057
         },
         {
           "name": "spec mobile icon",
