@@ -437,7 +437,7 @@
     {
       "type": "group",
       "name": "gui stuff",
-      "expanded": false,
+      "expanded": true,
       "children": [
         {
           "name": "Crosshair",
@@ -446,7 +446,7 @@
           ],
           "mode": "id",
           "enabled": true,
-          "with_id": 316279304
+          "with_id": 84327067392608
         },
         {
           "name": "scp logo",
@@ -455,7 +455,7 @@
           ],
           "mode": "id",
           "enabled": true,
-          "with_id": 15372994428
+          "with_id": 98920869210632
         },
         {
           "name": "player points",
@@ -608,7 +608,7 @@
         {
           "type": "group",
           "name": "ui",
-          "expanded": false,
+          "expanded": true,
           "children": [
             {
               "name": "prompt ui start",
@@ -638,17 +638,88 @@
               "mode": "id",
               "enabled": true,
               "with_id": 136275224021234
+            },
+            {
+              "name": "hitmarker",
+              "replace_ids": [
+                17724151829
+              ],
+              "mode": "id",
+              "enabled": true,
+              "with_id": 125235091454234
             }
           ]
         },
         {
-          "name": "hitmarker",
-          "replace_ids": [
-            17724151829
-          ],
-          "mode": "id",
-          "enabled": true,
-          "with_id": 125235091454234
+          "type": "group",
+          "name": "commander sounds",
+          "expanded": true,
+          "children": [
+            {
+              "name": "commander rally scream",
+              "replace_ids": [
+                117454446221242
+              ],
+              "mode": "id",
+              "enabled": true,
+              "with_id": 115251316814736
+            },
+            {
+              "name": "commander siren sound",
+              "replace_ids": [
+                44057192
+              ],
+              "mode": "id",
+              "enabled": true,
+              "with_id": 117856770378427
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "name": "game ui sounds",
+          "expanded": true,
+          "children": [
+            {
+              "name": "nuke announcement",
+              "replace_ids": [
+                2857569347
+              ],
+              "mode": "id",
+              "enabled": true,
+              "with_id": 124679718347800
+            },
+            {
+              "name": "intercom start",
+              "replace_ids": [
+                115213466905339
+              ],
+              "mode": "id",
+              "enabled": true,
+              "with_id": 127205266270030
+            },
+            {
+              "name": "alarm",
+              "replace_ids": [
+                134697739
+              ],
+              "mode": "id",
+              "enabled": true,
+              "with_id": 104914326130177
+            },
+            {
+              "name": "scp encounters",
+              "replace_ids": [
+                99393358792879,
+                4896837434,
+                99127000238695,
+                116304493868701
+              ],
+              "mode": "id",
+              "enabled": true,
+              "with_id": 109125638226173
+            }
+          ]
         }
       ]
     },
@@ -773,6 +844,24 @@
           "mode": "id",
           "enabled": true,
           "with_id": 1839932645
+        },
+        {
+          "name": "106 laugh",
+          "replace_ids": [
+            177359995
+          ],
+          "mode": "id",
+          "enabled": false,
+          "with_id": 81926429168665
+        },
+        {
+          "name": "106 breathing",
+          "replace_ids": [
+            188610577
+          ],
+          "mode": "id",
+          "enabled": false,
+          "with_id": 1218868653
         }
       ]
     },
@@ -822,7 +911,7 @@
     {
       "type": "group",
       "name": "common textures",
-      "expanded": false,
+      "expanded": true,
       "children": [
         {
           "name": "pained overlay",
@@ -866,70 +955,86 @@
           "enabled": false
         },
         {
-          "type": "group",
-          "name": "map textures",
-          "expanded": false,
-          "children": [
-            {
-              "name": "random poster 1",
-              "replace_ids": [
-                10551674031
-              ],
-              "mode": "id",
-              "enabled": true,
-              "with_id": 81465250457913
-            },
-            {
-              "name": "random poster 2",
-              "replace_ids": [
-                1616598619
-              ],
-              "mode": "id",
-              "enabled": true,
-              "with_id": 127490654248720
-            },
-            {
-              "name": "random poster 3",
-              "replace_ids": [
-                249402418
-              ],
-              "mode": "id",
-              "enabled": true,
-              "with_id": 138413773069026
-            }
-          ]
+          "name": "reduced muzzleflash texture",
+          "replace_ids": [
+            13974662820
+          ],
+          "mode": "id",
+          "enabled": true,
+          "with_id": 7064668386
+        },
+        {
+          "name": "muzzleflash texture",
+          "replace_ids": [
+            7676864171
+          ],
+          "mode": "id",
+          "enabled": true,
+          "with_id": 120621930095267
         }
       ]
     },
     {
       "type": "group",
       "name": "scp textures",
-      "expanded": false,
+      "expanded": true,
       "children": [
         {
-          "name": "2006 shirts",
-          "replace_ids": [
-            96915108
-          ],
-          "mode": "id",
-          "enabled": true
+          "type": "group",
+          "name": "2006",
+          "expanded": false,
+          "children": [
+            {
+              "name": "2006 shirts",
+              "replace_ids": [
+                96915108
+              ],
+              "mode": "id",
+              "enabled": true
+            },
+            {
+              "name": "2006 pants",
+              "replace_ids": [
+                96917524
+              ],
+              "mode": "id",
+              "enabled": true,
+              "with_id": 64231073
+            },
+            {
+              "name": "2006 helmet",
+              "replace_ids": [
+                12304480
+              ],
+              "mode": "id",
+              "enabled": false,
+              "with_id": 167554469
+            }
+          ]
         },
         {
-          "name": "0080 shirt",
-          "replace_ids": [
-            5237596615
-          ],
-          "mode": "id",
-          "enabled": true
-        },
-        {
-          "name": "2006 pants",
-          "replace_ids": [
-            96917524
-          ],
-          "mode": "id",
-          "enabled": true,
-          "with_id": 64231073
+          "type": "group",
+          "name": "0080",
+          "expanded": true,
+          "children": [
+            {
+              "name": "0080 shirt",
+              "replace_ids": [
+                5237596615
+              ],
+              "mode": "id",
+              "enabled": true
+            },
+            {
+              "name": "0080 pants",
+              "replace_ids": [
+                5237619721
+              ],
+              "mode": "id",
+              "enabled": true,
+              "with_id": 64231073
+            }
+          ]
         },
         {
           "name": "939 textures",
@@ -950,22 +1055,29 @@
           "with_id": 105336161525105
         },
         {
-          "name": "035 shirt",
-          "replace_ids": [
-            530461641
-          ],
-          "mode": "id",
-          "enabled": true,
-          "with_id": 12737530
-        },
-        {
-          "name": "035 pants",
-          "replace_ids": [
-            530462234
-          ],
-          "mode": "id",
-          "enabled": true,
-          "with_id": 64231073
+          "type": "group",
+          "name": "035",
+          "expanded": false,
+          "children": [
+            {
+              "name": "035 shirt",
+              "replace_ids": [
+                530461641
+              ],
+              "mode": "id",
+              "enabled": true,
+              "with_id": 12737530
+            },
+            {
+              "name": "035 pants",
+              "replace_ids": [
+                530462234
+              ],
+              "mode": "id",
+              "enabled": true,
+              "with_id": 64231073
+            }
+          ]
         },
         {
           "name": "049 2 face",
@@ -977,47 +1089,28 @@
           "with_id": 35750050
         },
         {
-          "name": "able shirt",
-          "replace_ids": [
-            2511949112
-          ],
-          "mode": "id",
-          "enabled": true
-        },
-        {
-          "name": "able pants",
-          "replace_ids": [
-            2511949527
-          ],
-          "mode": "id",
-          "enabled": true,
-          "with_id": 64231073
-        },
-        {
-          "name": "butler shirt",
-          "replace_ids": [
-            8572046009
-          ],
-          "mode": "id",
-          "enabled": true
-        },
-        {
-          "name": "butler pants",
-          "replace_ids": [
-            8572061296
-          ],
-          "mode": "id",
-          "enabled": true,
-          "with_id": 64231073
-        },
-        {
-          "name": "0080 pants",
-          "replace_ids": [
-            5237619721
-          ],
-          "mode": "id",
-          "enabled": true,
-          "with_id": 64231073
+          "type": "group",
+          "name": "662",
+          "expanded": false,
+          "children": [
+            {
+              "name": "butler shirt",
+              "replace_ids": [
+                8572046009
+              ],
+              "mode": "id",
+              "enabled": true
+            },
+            {
+              "name": "butler pants",
+              "replace_ids": [
+                8572061296
+              ],
+              "mode": "id",
+              "enabled": true,
+              "with_id": 64231073
+            }
+          ]
         },
         {
           "name": "087 head texturee",
@@ -1029,49 +1122,64 @@
           "with_id": 3250467832
         },
         {
-          "name": "2006 helmet",
-          "replace_ids": [
-            12304480
-          ],
-          "mode": "id",
-          "enabled": false,
-          "with_id": 167554469
-        },
-        {
-          "name": "abel rage face",
-          "replace_ids": [
-            434042160
-          ],
-          "mode": "id",
-          "enabled": true,
-          "with_id": 128943366040872
-        },
-        {
-          "name": "076 2 hair textures",
-          "replace_ids": [
-            913581010
-          ],
-          "mode": "id",
-          "enabled": true,
-          "with_id": 167554469
-        },
-        {
-          "name": "076 2 hair mesh",
-          "replace_ids": [
-            913578626
-          ],
-          "mode": "id",
-          "enabled": true,
-          "with_id": 167554431
-        },
-        {
-          "name": "076 2 face",
-          "replace_ids": [
-            210739973
-          ],
-          "mode": "id",
-          "enabled": true,
-          "with_id": 15431991
+          "type": "group",
+          "name": "076 2",
+          "expanded": false,
+          "children": [
+            {
+              "name": "abel rage face",
+              "replace_ids": [
+                434042160
+              ],
+              "mode": "id",
+              "enabled": true,
+              "with_id": 128943366040872
+            },
+            {
+              "name": "076 2 hair textures",
+              "replace_ids": [
+                913581010
+              ],
+              "mode": "id",
+              "enabled": true,
+              "with_id": 167554469
+            },
+            {
+              "name": "076 2 hair mesh",
+              "replace_ids": [
+                913578626
+              ],
+              "mode": "id",
+              "enabled": true,
+              "with_id": 167554431
+            },
+            {
+              "name": "076 2 face",
+              "replace_ids": [
+                210739973
+              ],
+              "mode": "id",
+              "enabled": true,
+              "with_id": 15431991
+            },
+            {
+              "name": "able shirt",
+              "replace_ids": [
+                2511949112
+              ],
+              "mode": "id",
+              "enabled": true
+            },
+            {
+              "name": "able pants",
+              "replace_ids": [
+                2511949527
+              ],
+              "mode": "id",
+              "enabled": true,
+              "with_id": 64231073
+            }
+          ]
         },
         {
           "name": "035 mask texture",
@@ -1082,22 +1190,79 @@
           "enabled": false
         },
         {
-          "name": "049 textures",
-          "replace_ids": [
-            189033450
-          ],
-          "mode": "id",
-          "enabled": true,
-          "with_id": 105336161525105
+          "type": "group",
+          "name": "049",
+          "expanded": false,
+          "children": [
+            {
+              "name": "049 textures",
+              "replace_ids": [
+                189033450
+              ],
+              "mode": "id",
+              "enabled": true,
+              "with_id": 105336161525105
+            },
+            {
+              "name": "049 hood",
+              "replace_ids": [
+                189029867
+              ],
+              "mode": "id",
+              "enabled": true,
+              "with_id": 3250467832
+            }
+          ]
         },
         {
-          "name": "049 hood",
-          "replace_ids": [
-            189029867
-          ],
-          "mode": "id",
-          "enabled": true,
-          "with_id": 3250467832
+          "type": "group",
+          "name": "106",
+          "expanded": true,
+          "children": [
+            {
+              "name": "106 head texture",
+              "replace_ids": [
+                188606054
+              ],
+              "mode": "id",
+              "enabled": true,
+              "with_id": 17392623
+            },
+            {
+              "name": "106 pants",
+              "replace_ids": [
+                188607890
+              ],
+              "mode": "id",
+              "enabled": true,
+              "with_id": 31081504
+            },
+            {
+              "name": "106 shirt",
+              "replace_ids": [
+                188608369
+              ],
+              "mode": "id",
+              "enabled": true,
+              "with_id": 31081427
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "name": "3199",
+          "expanded": true,
+          "children": [
+            {
+              "name": "3199 face",
+              "replace_ids": [
+                1585731294
+              ],
+              "mode": "id",
+              "enabled": true,
+              "with_id": 168143562
+            }
+          ]
         }
       ]
     },
@@ -1289,7 +1454,7 @@
           ],
           "mode": "id",
           "enabled": true,
-          "with_id": 0
+          "with_id": 8117957804
         },
         {
           "name": "lobby class d pants",
@@ -1418,7 +1583,7 @@
     {
       "type": "group",
       "name": "unsorted",
-      "expanded": true,
+      "expanded": false,
       "children": [
         {
           "name": "tx08 mesh",
@@ -1455,31 +1620,6 @@
           "mode": "id",
           "enabled": false,
           "with_id": 2568919334
-        },
-        {
-          "type": "group",
-          "name": "beretta project",
-          "expanded": true,
-          "children": [
-            {
-              "name": "beretta slide",
-              "replace_ids": [
-                104779820357570
-              ],
-              "mode": "id",
-              "enabled": true,
-              "with_id": 74609539644612
-            },
-            {
-              "name": "beretta handle",
-              "replace_ids": [
-                128854594477764
-              ],
-              "mode": "id",
-              "enabled": true,
-              "with_id": 72878264217702
-            }
-          ]
         },
         {
           "name": "think this is ksg texture",
@@ -1890,15 +2030,6 @@
       "with_id": 120891770644830
     },
     {
-      "name": "nuke announcement",
-      "replace_ids": [
-        2857569347
-      ],
-      "mode": "id",
-      "enabled": true,
-      "with_id": 9067329814
-    },
-    {
       "name": "ajoura/after nuke theme",
       "replace_ids": [
         118992747496835
@@ -1951,43 +2082,723 @@
       "with_id": 4826619573
     },
     {
-      "name": "intercom start",
+      "name": "shockwave particle",
       "replace_ids": [
-        115213466905339
+        126478025804623
       ],
       "mode": "id",
-      "enabled": true,
-      "with_id": 9067330158
+      "enabled": false
     },
     {
-      "name": "commander rally i think",
+      "name": "redmist face",
       "replace_ids": [
-        117454446221242
+        2360017661
       ],
       "mode": "id",
-      "enabled": true,
-      "with_id": 115251316814736
+      "enabled": false
     },
     {
-      "name": "alarm",
-      "replace_ids": [
-        134697739
-      ],
-      "mode": "id",
-      "enabled": true,
-      "with_id": 104914326130177
+      "type": "group",
+      "name": "map textures",
+      "expanded": true,
+      "children": [
+        {
+          "type": "group",
+          "name": "map",
+          "expanded": false,
+          "children": [
+            {
+              "name": "ceiling texture",
+              "replace_ids": [
+                2623349924,
+                691083833
+              ],
+              "mode": "id",
+              "enabled": true,
+              "with_id": 6268705595
+            },
+            {
+              "name": "elevator metal texture",
+              "replace_ids": [
+                536386470,
+                593734064
+              ],
+              "mode": "id",
+              "enabled": true,
+              "with_id": 13574485
+            },
+            {
+              "name": "office wall white texture",
+              "replace_ids": [
+                657623401
+              ],
+              "mode": "id",
+              "enabled": true,
+              "with_id": 14005627
+            },
+            {
+              "name": "office wall texture",
+              "replace_ids": [
+                691086710
+              ],
+              "mode": "id",
+              "enabled": true,
+              "with_id": 20037378
+            },
+            {
+              "name": "white wall texture",
+              "replace_ids": [
+                4009234868
+              ],
+              "mode": "id",
+              "enabled": true,
+              "with_id": 16951342
+            },
+            {
+              "name": "tilefloor texture",
+              "replace_ids": [
+                660384874,
+                2623350016,
+                142000367,
+                91638656
+              ],
+              "mode": "id",
+              "enabled": true,
+              "with_id": 18361304
+            },
+            {
+              "name": "could be a wall texture",
+              "replace_ids": [
+                5901975032
+              ],
+              "mode": "id",
+              "enabled": true
+            },
+            {
+              "name": "reversed office wall texture",
+              "replace_ids": [
+                691087275
+              ],
+              "mode": "id",
+              "enabled": true,
+              "with_id": 20037378
+            },
+            {
+              "name": "glass texture",
+              "replace_ids": [
+                4011505513,
+                91626703,
+                5825388251
+              ],
+              "mode": "id",
+              "enabled": true,
+              "with_id": 54447848
+            },
+            {
+              "name": "concrete floor texture",
+              "replace_ids": [
+                4041792735
+              ],
+              "mode": "id",
+              "enabled": true,
+              "with_id": 9822120576
+            },
+            {
+              "name": "dirty metal texture",
+              "replace_ids": [
+                629019562,
+                91626530,
+                9820346004,
+                96304226,
+                189173353,
+                536386368,
+                9799433001
+              ],
+              "mode": "id",
+              "enabled": true,
+              "with_id": 14194708
+            },
+            {
+              "name": "dark rusty metal",
+              "replace_ids": [
+                257851040,
+                98668969
+              ],
+              "mode": "id",
+              "enabled": true,
+              "with_id": 19959771
+            },
+            {
+              "name": "concrete wall texture",
+              "replace_ids": [
+                4041798137,
+                655314008
+              ],
+              "mode": "id",
+              "enabled": true,
+              "with_id": 12704959
+            },
+            {
+              "name": "metal3 texture",
+              "replace_ids": [
+                645832261,
+                4041893389,
+                88191390,
+                160943250
+              ],
+              "mode": "id",
+              "enabled": true,
+              "with_id": 5979112
+            },
+            {
+              "name": "metal panels texture",
+              "replace_ids": [
+                677303152,
+                4041897004
+              ],
+              "mode": "id",
+              "enabled": true,
+              "with_id": 15905860
+            },
+            {
+              "name": "ez white wall texture",
+              "replace_ids": [
+                657623401
+              ],
+              "mode": "id",
+              "enabled": true,
+              "with_id": 16951342
+            },
+            {
+              "name": "white wall texture",
+              "replace_ids": [
+                655336407,
+                4034954532,
+                770818920,
+                536388257
+              ],
+              "mode": "id",
+              "enabled": true,
+              "with_id": 17716663
+            },
+            {
+              "name": "concrete floor2  texture guess",
+              "replace_ids": [
+                655298334,
+                91626509
+              ],
+              "mode": "id",
+              "enabled": true,
+              "with_id": 2887714
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "name": "posters",
+          "expanded": true,
+          "children": [
+            {
+              "name": "random poster 1",
+              "replace_ids": [
+                10551674031
+              ],
+              "mode": "id",
+              "enabled": true,
+              "with_id": 81465250457913
+            },
+            {
+              "name": "random poster 2",
+              "replace_ids": [
+                1616598619
+              ],
+              "mode": "id",
+              "enabled": true,
+              "with_id": 127490654248720
+            },
+            {
+              "name": "random poster 3",
+              "replace_ids": [
+                249402418
+              ],
+              "mode": "id",
+              "enabled": true,
+              "with_id": 138413773069026
+            },
+            {
+              "name": "medbay poster",
+              "replace_ids": [
+                257813087
+              ],
+              "mode": "id",
+              "enabled": true,
+              "with_id": 110250032020357
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "name": "signs",
+          "expanded": false,
+          "children": [
+            {
+              "name": "LCZ sign texture",
+              "replace_ids": [
+                9830966881
+              ],
+              "mode": "id",
+              "enabled": true
+            },
+            {
+              "name": "cafeteria sign texture",
+              "replace_ids": [
+                4669737122,
+                192575299
+              ],
+              "mode": "id",
+              "enabled": true
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "name": "blastdoors textures",
+          "expanded": true,
+          "children": [
+            {
+              "name": "blast door texture",
+              "replace_ids": [
+                500383426
+              ],
+              "mode": "id",
+              "enabled": true,
+              "with_id": 14194708
+            },
+            {
+              "name": "blast door 1",
+              "replace_ids": [
+                263070453
+              ],
+              "mode": "id",
+              "enabled": true,
+              "with_id": 14005193
+            },
+            {
+              "name": "blast door 2",
+              "replace_ids": [
+                263069478
+              ],
+              "mode": "id",
+              "enabled": true,
+              "with_id": 14005193
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "name": "door textures",
+          "expanded": false,
+          "children": [
+            {
+              "name": "door back texture",
+              "replace_ids": [
+                82300267
+              ],
+              "mode": "id",
+              "enabled": true
+            },
+            {
+              "name": "door front texture",
+              "replace_ids": [
+                82300237,
+                275767020
+              ],
+              "mode": "id",
+              "enabled": true
+            },
+            {
+              "name": "full door textures",
+              "replace_ids": [
+                434467116
+              ],
+              "mode": "id",
+              "enabled": true
+            },
+            {
+              "name": "door button texture",
+              "replace_ids": [
+                83716395
+              ],
+              "mode": "id",
+              "enabled": true
+            },
+            {
+              "name": "keypad texture",
+              "replace_ids": [
+                433024542
+              ],
+              "mode": "id",
+              "enabled": true
+            },
+            {
+              "name": "class d door texture",
+              "replace_ids": [
+                121749608
+              ],
+              "mode": "id",
+              "enabled": true
+            }
+          ]
+        }
+      ]
     },
     {
-      "name": "scp encounters",
+      "type": "group",
+      "name": "item textures",
+      "expanded": false,
+      "children": [
+        {
+          "name": "medkit textures",
+          "replace_ids": [
+            14130661966
+          ],
+          "mode": "id",
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "name": "skull png",
       "replace_ids": [
-        99393358792879,
-        4896837434,
-        99127000238695,
-        116304493868701
+        47110473
       ],
       "mode": "id",
       "enabled": true,
-      "with_id": 109125638226173
+      "with_id": 133137524896951
+    },
+    {
+      "type": "group",
+      "name": "secondary models",
+      "expanded": false,
+      "children": [
+        {
+          "type": "group",
+          "name": "beretta",
+          "expanded": true,
+          "children": [
+            {
+              "name": "beretta slide",
+              "replace_ids": [
+                104779820357570
+              ],
+              "mode": "id",
+              "enabled": true,
+              "with_id": 74609539644612
+            },
+            {
+              "name": "beretta handle",
+              "replace_ids": [
+                128854594477764
+              ],
+              "mode": "id",
+              "enabled": true,
+              "with_id": 72878264217702
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ntf gas mask weird bar > bunny ears",
+      "replace_ids": [
+        1134832604
+      ],
+      "mode": "id",
+      "enabled": true,
+      "with_id": 106658583391608
+    },
+    {
+      "name": "NTF soldier shirt",
+      "replace_ids": [
+        906711129
+      ],
+      "mode": "id",
+      "enabled": true,
+      "with_id": 130893728108880
+    },
+    {
+      "name": "NTF soldier pants",
+      "replace_ids": [
+        892478744,
+        10589851240,
+        5033234157
+      ],
+      "mode": "id",
+      "enabled": true,
+      "with_id": 137742917016065
+    },
+    {
+      "name": "site manager shirt",
+      "replace_ids": [
+        7825353601
+      ],
+      "mode": "id",
+      "enabled": true,
+      "with_id": 5508622057
+    },
+    {
+      "name": "site manager pants",
+      "replace_ids": [
+        386302776
+      ],
+      "mode": "id",
+      "enabled": true,
+      "with_id": 5508633712
+    },
+    {
+      "type": "group",
+      "name": "foundation escapes",
+      "expanded": false,
+      "children": [
+        {
+          "name": "scientist/doctor shirt",
+          "replace_ids": [
+            1016533063
+          ],
+          "mode": "id",
+          "enabled": true,
+          "with_id": 18421102795
+        },
+        {
+          "name": "scientist/doctor pants",
+          "replace_ids": [
+            1044937573
+          ],
+          "mode": "id",
+          "enabled": true,
+          "with_id": 18420761442
+        },
+        {
+          "name": "janitor shirt",
+          "replace_ids": [
+            10017914870
+          ],
+          "mode": "id",
+          "enabled": true,
+          "with_id": 76833071440863
+        },
+        {
+          "name": "janitor pants",
+          "replace_ids": [
+            10017917152
+          ],
+          "mode": "id",
+          "enabled": true,
+          "with_id": 85298304715079
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "name": "class d",
+      "expanded": false,
+      "children": [
+        {
+          "name": "ingame class d shirt",
+          "replace_ids": [
+            4019220947
+          ],
+          "mode": "id",
+          "enabled": true,
+          "with_id": 180711763
+        },
+        {
+          "name": "ingame class d pants",
+          "replace_ids": [
+            4019219694
+          ],
+          "mode": "id",
+          "enabled": true,
+          "with_id": 216399877
+        },
+        {
+          "name": "class d tanktop variant shirt",
+          "replace_ids": [
+            3918889740
+          ],
+          "mode": "id",
+          "enabled": true,
+          "with_id": 124800437977589
+        }
+      ]
+    },
+    {
+      "name": "173 chest",
+      "replace_ids": [
+        5668420368
+      ],
+      "mode": "id",
+      "enabled": true
+    },
+    {
+      "name": "173 head and lower half",
+      "replace_ids": [
+        5668420827
+      ],
+      "mode": "id",
+      "enabled": true,
+      "with_id": 83875096738166
+    },
+    {
+      "name": "security guard pants",
+      "replace_ids": [
+        1161640298
+      ],
+      "mode": "id",
+      "enabled": true,
+      "with_id": 98932034345087
+    },
+    {
+      "name": "security guard shirt",
+      "replace_ids": [
+        1161632544
+      ],
+      "mode": "id",
+      "enabled": true,
+      "with_id": 101338152424016
+    },
+    {
+      "type": "group",
+      "name": "UIU clothing",
+      "expanded": false,
+      "children": [
+        {
+          "name": "UIU trooper1 shirt",
+          "replace_ids": [
+            2683801476
+          ],
+          "mode": "id",
+          "enabled": true,
+          "with_id": 9859131
+        },
+        {
+          "name": "UIU trooper1 pants",
+          "replace_ids": [
+            118005535
+          ],
+          "mode": "id",
+          "enabled": true,
+          "with_id": 9859149
+        },
+        {
+          "name": "UIU trooper2 shirt",
+          "replace_ids": [
+            410641562
+          ],
+          "mode": "id",
+          "enabled": true,
+          "with_id": 588663259
+        },
+        {
+          "name": "UIU trooper2 pants",
+          "replace_ids": [
+            393539641
+          ],
+          "mode": "id",
+          "enabled": true,
+          "with_id": 4428664388
+        },
+        {
+          "name": "UIU trooper3 pants",
+          "replace_ids": [
+            233558438
+          ],
+          "mode": "id",
+          "enabled": true,
+          "with_id": 252315501
+        },
+        {
+          "name": "UIU trooper3 shirt",
+          "replace_ids": [
+            186284274
+          ],
+          "mode": "id",
+          "enabled": true,
+          "with_id": 252315488
+        },
+        {
+          "name": "UIU trooper4 shirt",
+          "replace_ids": [
+            361388649
+          ],
+          "mode": "id",
+          "enabled": true,
+          "with_id": 31774908
+        },
+        {
+          "name": "UIU trooper4 pants",
+          "replace_ids": [
+            361370041
+          ],
+          "mode": "id",
+          "enabled": true,
+          "with_id": 31775056
+        }
+      ]
+    },
+    {
+      "name": "UIU SW intercoms",
+      "replace_ids": [
+        125806376198630
+      ],
+      "mode": "id",
+      "enabled": true,
+      "with_id": 3400851228
+    },
+    {
+      "name": "UIU theme SW intercoms",
+      "replace_ids": [
+        103115091635199
+      ],
+      "mode": "local",
+      "enabled": true,
+      "local_path": "D:\\AL lobotomy edition\\custom sounds\\UIU\\CPV intercom.mp3"
+    },
+    {
+      "name": "UIU theme commander",
+      "replace_ids": [
+        108727902654383
+      ],
+      "mode": "local",
+      "enabled": true,
+      "local_path": "D:\\AL lobotomy edition\\custom sounds\\UIU\\CPV.mp3"
+    },
+    {
+      "name": "taser model",
+      "replace_ids": [
+        75722093358525
+      ],
+      "mode": "id",
+      "enabled": true,
+      "with_id": 92460525157025
+    },
+    {
+      "name": "taser textures",
+      "replace_ids": [
+        75722093358525
+      ],
+      "mode": "id",
+      "enabled": true,
+      "with_id": 99866675
+    },
+    {
+      "name": "flash banged",
+      "replace_ids": [
+        73829807478960
+      ],
+      "mode": "id",
+      "enabled": true,
+      "with_id": 129710406245892
     }
   ]
 }
