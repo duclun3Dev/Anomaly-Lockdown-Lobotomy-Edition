@@ -1,0 +1,51 @@
+import json
+import os
+from pathlib import Path
+
+def generate_universal_config():
+    # 1. Look for your exact JSON filename from the folder
+    config_name = "anomaly lockdown lobotomy edition.json"
+    assets_folder = "local assets"
+    
+    if not os.path.exists(config_name):
+        print(f"Error: Could not find '{config_name}' in this folder.")
+        input("\nPress Enter to exit...")
+        return
+
+    # 2. Read the existing JSON configuration
+    print(f"Reading {config_name}...")
+    with open(config_name, "r", encoding="utf-8") as f:
+        config_data = json.load(f)
+        
+    # 3. Scan the 'local assets' folder for custom files
+    mod_count = 0
+    if os.path.exists(assets_folder):
+        for file in os.listdir(assets_folder):
+            # Extract the asset ID (the filename without extension)
+            asset_id = Path(file).stem 
+            
+            # Build the universal path format for local files across all OS platforms
+            absolute_local_path = os.path.abspath(os.path.join(assets_folder, file))
+            file_url = Path(absolute_local_path).as_uri() 
+            
+            # --- Check and replace matching IDs in Fleasion structure ---
+            # Checks top-level replacement pairs
+            if asset_id in config_data:
+                config_data[asset_id] = file_url
+                print(f" Linked ID: {asset_id}")
+                mod_count += 1
+            # Checks nested 'replacements' dictionaries if Fleasion uses them
+            elif "replacements" in config_data and asset_id in config_data["replacements"]:
+                config_data["replacements"][asset_id] = file_url
+                print(f" Linked ID: {asset_id}")
+                mod_count += 1
+
+    # 4. Save the modified config file back down
+    with open(config_name, "w", encoding="utf-8") as f:
+        json.dump(config_data, f, indent=4)
+    
+    print(f"\n Success! Updated {mod_count} asset path(s) inside {config_name}.")
+    input("\nPress Enter to close...")
+
+if __name__ == "__main__":
+    generate_universal_config()
