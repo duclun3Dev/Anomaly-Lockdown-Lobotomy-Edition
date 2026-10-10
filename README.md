@@ -1,14 +1,16 @@
 step 1, download Fleasion here https://github.com/fleasion/Fleasion/releases/tag/v2.4.0
 
-step 2, download the json file here
+step 2, download the json file, the exe, AND lobotomy lockdown local assets 7z file here
 
-step 3, Copy/Cut the json file
+step 3, unzip the 7z file in a folder, put the json file in there and activate the exe file
 
-step 4, in Fleasion, press "Open Configs..." and paste the json file there
+step 4, Copy/Cut the json file, do not remove the local assets folder!!!
 
-step 5, find the json you pasted in Configuration (click the drag down next to Enabled:), and check it, the red circle should become green and activate the mod
+step 5, in Fleasion, press "Open Configs..." and paste the json file there
 
-step 6, press "Clear Cache", (you should do this every time if you want to make your own changes to the mod or make sure it works), and play AL!
+step 6, find the json you pasted in Configuration (click the drag down next to Enabled:), and check it, the red circle should become green and activate the mod
+
+step 7, press "Clear Cache", (you should do this every time if you want to make your own changes to the mod, or do it multiple times to make sure it works), and play AL!
 
 optional: go to Scraper and Enable Cache Scraper, since i need help compiling all of the data in the game!
 
