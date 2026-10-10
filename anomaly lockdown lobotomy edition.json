@@ -2,6 +2,452 @@
   "replacement_rules": [
     {
       "type": "group",
+      "name": "Perk Icons",
+      "expanded": true,
+      "children": [
+        {
+          "name": "EscPerk1",
+          "replace_ids": [
+            130732069129429
+          ],
+          "mode": "id",
+          "enabled": true,
+          "with_id": 7101141096
+        },
+        {
+          "name": "ReinPerk1",
+          "replace_ids": [
+            81939771621830
+          ],
+          "mode": "id",
+          "enabled": true,
+          "with_id": 139722848143890
+        },
+        {
+          "name": "EscPerk2",
+          "replace_ids": [
+            110419016653198
+          ],
+          "mode": "id",
+          "enabled": true,
+          "with_id": 99668338468850
+        },
+        {
+          "name": "ReinPerk2",
+          "replace_ids": [
+            72109927879867
+          ],
+          "mode": "id",
+          "enabled": true,
+          "with_id": 8164387520
+        },
+        {
+          "name": "ReinPerk3",
+          "replace_ids": [
+            78673583806403
+          ],
+          "mode": "id",
+          "enabled": true,
+          "with_id": 109606720951537
+        },
+        {
+          "name": "EscPerk3",
+          "replace_ids": [
+            116349003354104
+          ],
+          "mode": "id",
+          "enabled": true,
+          "with_id": 6648443498
+        },
+        {
+          "name": "ReinPerk4",
+          "replace_ids": [
+            100980918470704
+          ],
+          "mode": "id",
+          "enabled": true,
+          "with_id": 95182877479901
+        },
+        {
+          "name": "EscPerk4",
+          "replace_ids": [
+            70457414639436
+          ],
+          "mode": "id",
+          "enabled": true,
+          "with_id": 114056718444696
+        },
+        {
+          "name": "ReinPerk5",
+          "replace_ids": [
+            79649008324209
+          ],
+          "mode": "id",
+          "enabled": true,
+          "with_id": 80040147345094
+        },
+        {
+          "name": "EscPerk5",
+          "replace_ids": [
+            125985600478192
+          ],
+          "mode": "id",
+          "enabled": true,
+          "with_id": 5710669641
+        },
+        {
+          "name": "ReinPerk6",
+          "replace_ids": [
+            127481768885540
+          ],
+          "mode": "id",
+          "enabled": true,
+          "with_id": 122753872916973
+        },
+        {
+          "name": "EscPerk6",
+          "replace_ids": [
+            94400011771715
+          ],
+          "mode": "id",
+          "enabled": true,
+          "with_id": 82555042129070
+        },
+        {
+          "name": "ReinPerk7",
+          "replace_ids": [
+            123443053880592
+          ],
+          "mode": "id",
+          "enabled": true,
+          "with_id": 13528140280
+        },
+        {
+          "name": "ReinPerk8",
+          "replace_ids": [
+            120923701439930
+          ],
+          "mode": "id",
+          "enabled": true,
+          "with_id": 111909324623680
+        },
+        {
+          "name": "NoPerkGadget",
+          "replace_ids": [
+            2195446979
+          ],
+          "mode": "id",
+          "enabled": true,
+          "with_id": 17858351415
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "name": "Customization Faces",
+      "expanded": false,
+      "children": [
+        {
+          "name": "face1",
+          "replace_ids": [
+            405706038
+          ],
+          "mode": "id",
+          "enabled": true,
+          "with_id": 2041103964
+        },
+        {
+          "name": "face2",
+          "replace_ids": [
+            22828283
+          ],
+          "mode": "id",
+          "enabled": true,
+          "with_id": 6778336517
+        },
+        {
+          "name": "face3",
+          "replace_ids": [
+            629929484
+          ],
+          "mode": "id",
+          "enabled": true,
+          "with_id": 118338215974848
+        },
+        {
+          "name": "face4",
+          "replace_ids": [
+            508489686
+          ],
+          "mode": "id",
+          "enabled": true,
+          "with_id": 1718552778
+        },
+        {
+          "name": "face5",
+          "replace_ids": [
+            90272454
+          ],
+          "mode": "id",
+          "enabled": true,
+          "with_id": 3338380735
+        },
+        {
+          "name": "face6",
+          "replace_ids": [
+            237707734
+          ],
+          "mode": "id",
+          "enabled": true,
+          "with_id": 18434368730
+        },
+        {
+          "name": "face7",
+          "replace_ids": [
+            13291423598
+          ],
+          "mode": "id",
+          "enabled": true,
+          "with_id": 18582778045
+        },
+        {
+          "name": "face8",
+          "replace_ids": [
+            83017053
+          ],
+          "mode": "id",
+          "enabled": true,
+          "with_id": 16050180337
+        },
+        {
+          "name": "face9",
+          "replace_ids": [
+            405705854
+          ],
+          "mode": "id",
+          "enabled": true,
+          "with_id": 13038247
+        },
+        {
+          "name": "face10",
+          "replace_ids": [
+            14861556
+          ],
+          "mode": "id",
+          "enabled": true,
+          "with_id": 10630692715
+        },
+        {
+          "name": "face11",
+          "replace_ids": [
+            66329524
+          ],
+          "mode": "id",
+          "enabled": true,
+          "with_id": 7562340637
+        },
+        {
+          "name": "face12",
+          "replace_ids": [
+            478719512
+          ],
+          "mode": "id",
+          "enabled": true,
+          "with_id": 9368363351
+        },
+        {
+          "name": "face13",
+          "replace_ids": [
+            21635489
+          ],
+          "mode": "id",
+          "enabled": true,
+          "with_id": 133137524896951
+        },
+        {
+          "name": "face14",
+          "replace_ids": [
+            23219775
+          ],
+          "mode": "id",
+          "enabled": true,
+          "with_id": 28651926
+        },
+        {
+          "name": "face15",
+          "replace_ids": [
+            126181333
+          ],
+          "mode": "id",
+          "enabled": true,
+          "with_id": 12909220053
+        },
+        {
+          "name": "face16",
+          "replace_ids": [
+            2975582228
+          ],
+          "mode": "id",
+          "enabled": true,
+          "with_id": 2799075615
+        },
+        {
+          "name": "face17",
+          "replace_ids": [
+            14301710584
+          ],
+          "mode": "id",
+          "enabled": true,
+          "with_id": 124591553467617
+        },
+        {
+          "name": "face18",
+          "replace_ids": [
+            121993036
+          ],
+          "mode": "id",
+          "enabled": true,
+          "with_id": 18273401491
+        },
+        {
+          "name": "face19",
+          "replace_ids": [
+            1384268303
+          ],
+          "mode": "id",
+          "enabled": true,
+          "with_id": 1586343289
+        },
+        {
+          "name": "face20",
+          "replace_ids": [
+            7076096
+          ],
+          "mode": "id",
+          "enabled": true,
+          "with_id": 841409942
+        },
+        {
+          "name": "face21",
+          "replace_ids": [
+            22118943
+          ],
+          "mode": "id",
+          "enabled": true,
+          "with_id": 112746037706866
+        },
+        {
+          "name": "face22",
+          "replace_ids": [
+            1868539477
+          ],
+          "mode": "id",
+          "enabled": true,
+          "with_id": 1037078104
+        },
+        {
+          "name": "face23",
+          "replace_ids": [
+            7132019
+          ],
+          "mode": "id",
+          "enabled": true,
+          "with_id": 1037078104
+        },
+        {
+          "name": "face24",
+          "replace_ids": [
+            2154644145
+          ],
+          "mode": "id",
+          "enabled": true,
+          "with_id": 15001712224
+        },
+        {
+          "name": "face25",
+          "replace_ids": [
+            472131401
+          ],
+          "mode": "id",
+          "enabled": true,
+          "with_id": 90659880144682
+        },
+        {
+          "name": "face26",
+          "replace_ids": [
+            21311520
+          ],
+          "mode": "id",
+          "enabled": true,
+          "with_id": 15972246981
+        },
+        {
+          "name": "face27",
+          "replace_ids": [
+            141728515
+          ],
+          "mode": "id",
+          "enabled": true,
+          "with_id": 84296062283588
+        },
+        {
+          "name": "face28",
+          "replace_ids": [
+            45515545
+          ],
+          "mode": "id",
+          "enabled": true,
+          "with_id": 3361940924
+        },
+        {
+          "name": "face29",
+          "replace_ids": [
+            7699115
+          ],
+          "mode": "id",
+          "enabled": true,
+          "with_id": 15799471418
+        },
+        {
+          "name": "face30",
+          "replace_ids": [
+            21796275
+          ],
+          "mode": "id",
+          "enabled": true,
+          "with_id": 31746661
+        },
+        {
+          "name": "face31",
+          "replace_ids": [
+            277939506
+          ],
+          "mode": "id",
+          "enabled": true,
+          "with_id": 2831673023
+        },
+        {
+          "name": "face32",
+          "replace_ids": [
+            405706600
+          ],
+          "mode": "id",
+          "enabled": true,
+          "with_id": 119800590783803
+        },
+        {
+          "name": "default smile",
+          "replace_ids": [
+            "texture\\face.png"
+          ],
+          "mode": "id",
+          "enabled": true,
+          "with_id": 120364851057237
+        }
+      ]
+    },
+    {
+      "type": "group",
       "name": "primary fires",
       "expanded": false,
       "children": [
@@ -338,7 +784,7 @@
           "with_id": 95131770144654
         },
         {
-          "name": "lib rage scream i think",
+          "name": "lib rage scream",
           "replace_ids": [
             129030793324292
           ],
@@ -437,16 +883,17 @@
     {
       "type": "group",
       "name": "gui stuff",
-      "expanded": true,
+      "expanded": false,
       "children": [
         {
           "name": "Crosshair",
           "replace_ids": [
             316279304
           ],
-          "mode": "id",
+          "mode": "local",
           "enabled": true,
-          "with_id": 84327067392608
+          "with_id": 84327067392608,
+          "local_path": "D:/AL lobotomy edition/apply local assets fleasion/local assets/gui stuff/Crosshair.png"
         },
         {
           "name": "scp logo",
@@ -492,82 +939,107 @@
           "with_id": 6929233245
         },
         {
-          "name": "pistol equip",
-          "replace_ids": [
-            3606135620
-          ],
-          "mode": "id",
-          "enabled": true,
-          "with_id": 2697295
-        },
-        {
-          "name": "rifle equip",
-          "replace_ids": [
-            8169233194
-          ],
-          "mode": "id",
-          "enabled": true,
-          "with_id": 10209834
-        },
-        {
-          "name": "generic ass rifle reloads",
-          "replace_ids": [
-            801171060,
-            6523977613,
-            2304201786,
-            799959310,
-            799968994,
-            5675144072,
-            4649193317,
-            143348226,
-            2501016107,
-            137390898932817,
-            800027067,
-            8907176278,
-            8452079394,
-            133115037437112,
-            138961499388254
-          ],
-          "mode": "id",
-          "enabled": true,
-          "with_id": 2691591
-        },
-        {
-          "name": "bullet ricochets",
-          "replace_ids": [
-            7046484545,
-            9113634070,
-            7046483679,
-            7046481261,
-            4427231299,
-            4427234167,
-            4427236368,
-            8542224235,
-            8542223682,
-            8542224819,
-            8542226017,
-            9113634061,
-            9113633912,
-            142082170,
-            9113633916,
-            4072627278
-          ],
-          "mode": "id",
-          "enabled": true,
-          "with_id": 12222140
-        },
-        {
-          "name": "bullet flesh",
-          "replace_ids": [
-            6978732129,
-            6978732459,
-            6978732312,
-            144884872,
-            6978731806
-          ],
-          "mode": "id",
-          "enabled": true,
-          "with_id": 12222058
+          "type": "group",
+          "name": "weapons",
+          "expanded": true,
+          "children": [
+            {
+              "name": "pistol equip",
+              "replace_ids": [
+                3606135620
+              ],
+              "mode": "id",
+              "enabled": true,
+              "with_id": 2697295
+            },
+            {
+              "name": "rifle equip",
+              "replace_ids": [
+                8169233194
+              ],
+              "mode": "id",
+              "enabled": true,
+              "with_id": 10209834
+            },
+            {
+              "name": "generic ass rifle reloads",
+              "replace_ids": [
+                801171060,
+                6523977613,
+                2304201786,
+                799959310,
+                799968994,
+                5675144072,
+                4649193317,
+                143348226,
+                2501016107,
+                137390898932817,
+                800027067,
+                8907176278,
+                8452079394,
+                133115037437112,
+                138961499388254
+              ],
+              "mode": "id",
+              "enabled": true,
+              "with_id": 2691591
+            },
+            {
+              "name": "bullet ricochets",
+              "replace_ids": [
+                7046484545,
+                9113634070,
+                7046483679,
+                7046481261,
+                4427231299,
+                4427234167,
+                4427236368,
+                8542224235,
+                8542223682,
+                8542224819,
+                8542226017,
+                9113634061,
+                9113633912,
+                142082170,
+                9113633916,
+                4072627278
+              ],
+              "mode": "id",
+              "enabled": true,
+              "with_id": 12222140
+            },
+            {
+              "name": "bullet flesh",
+              "replace_ids": [
+                6978732129,
+                6978732459,
+                6978732312,
+                144884872,
+                6978731806
+              ],
+              "mode": "id",
+              "enabled": true,
+              "with_id": 12222058
+            },
+            {
+              "name": "deagle equip",
+              "replace_ids": [
+                4549835866
+              ],
+              "mode": "id",
+              "enabled": true,
+              "with_id": 140586422768385
+            },
+            {
+              "name": "flash banged",
+              "replace_ids": [
+                73829807478960
+              ],
+              "mode": "id",
+              "enabled": true,
+              "with_id": 129710406245892
+            }
+          ]
         },
         {
           "name": "elite kit",
@@ -585,7 +1057,7 @@
           ],
           "mode": "local",
           "enabled": true,
-          "local_path": "D:\\audacity\\music\\Alan Walker - Faded.mp3"
+          "local_path": "D:/AL lobotomy edition/apply local assets fleasion/local assets/menu theme.mp3"
         },
         {
           "name": "lobby theme",
@@ -597,18 +1069,9 @@
           "with_id": 1843098849
         },
         {
-          "name": "deagle equip",
-          "replace_ids": [
-            4549835866
-          ],
-          "mode": "id",
-          "enabled": true,
-          "with_id": 140586422768385
-        },
-        {
           "type": "group",
           "name": "ui",
-          "expanded": true,
+          "expanded": false,
           "children": [
             {
               "name": "prompt ui start",
@@ -653,7 +1116,7 @@
         {
           "type": "group",
           "name": "commander sounds",
-          "expanded": true,
+          "expanded": false,
           "children": [
             {
               "name": "commander rally scream",
@@ -685,9 +1148,10 @@
               "replace_ids": [
                 2857569347
               ],
-              "mode": "id",
+              "mode": "local",
               "enabled": true,
-              "with_id": 124679718347800
+              "with_id": 124679718347800,
+              "local_path": "D:/AL lobotomy edition/apply local assets fleasion/local assets/intercom stuff/nuke announcement.mp3"
             },
             {
               "name": "intercom start",
@@ -720,6 +1184,25 @@
               "with_id": 109125638226173
             }
           ]
+        },
+        {
+          "name": "lobby radio",
+          "replace_ids": [
+            94539936797633
+          ],
+          "mode": "local",
+          "enabled": true,
+          "with_id": 112679722662103,
+          "local_path": "D:/AL lobotomy edition/apply local assets fleasion/local assets/lobby stuff/lobby radio.mp3"
+        },
+        {
+          "name": "radio transmitter beeps",
+          "replace_ids": [
+            9125359781
+          ],
+          "mode": "id",
+          "enabled": true,
+          "with_id": 1840529306
         }
       ]
     },
@@ -911,7 +1394,7 @@
     {
       "type": "group",
       "name": "common textures",
-      "expanded": true,
+      "expanded": false,
       "children": [
         {
           "name": "pained overlay",
@@ -947,7 +1430,7 @@
           "enabled": false
         },
         {
-          "name": "white vignette (mask?)",
+          "name": "gasmask vignette",
           "replace_ids": [
             11018842872
           ],
@@ -970,7 +1453,16 @@
           ],
           "mode": "id",
           "enabled": true,
-          "with_id": 120621930095267
+          "with_id": 443789987
+        },
+        {
+          "name": "bullet trail",
+          "replace_ids": [
+            88338582379213
+          ],
+          "mode": "local",
+          "enabled": true,
+          "local_path": "D:/AL lobotomy edition/apply local assets fleasion/local assets/gui stuff/bullet trail.png"
         }
       ]
     },
@@ -1445,7 +1937,7 @@
     {
       "type": "group",
       "name": "lobby drip",
-      "expanded": true,
+      "expanded": false,
       "children": [
         {
           "name": "lobby class d",
@@ -1472,7 +1964,7 @@
           ],
           "mode": "id",
           "enabled": true,
-          "with_id": 77464817
+          "with_id": 12490114421
         },
         {
           "name": "lobby vip pants",
@@ -1481,7 +1973,7 @@
           ],
           "mode": "id",
           "enabled": true,
-          "with_id": 77471057
+          "with_id": 4439013156
         },
         {
           "name": "spec mobile icon",
@@ -2012,15 +2504,6 @@
       "with_id": 8923066311
     },
     {
-      "name": "radio transmitter beeps",
-      "replace_ids": [
-        9125359781
-      ],
-      "mode": "id",
-      "enabled": true,
-      "with_id": 1840529306
-    },
-    {
       "name": "radio transmitter start",
       "replace_ids": [
         9119104660
@@ -2030,13 +2513,13 @@
       "with_id": 120891770644830
     },
     {
-      "name": "ajoura/after nuke theme",
+      "name": "after nuke theme",
       "replace_ids": [
         118992747496835
       ],
-      "mode": "id",
+      "mode": "local",
       "enabled": true,
-      "with_id": 85362242154153
+      "local_path": "D:/AL lobotomy edition/apply local assets fleasion/local assets/after nuke theme.mp3"
     },
     {
       "name": "incendiary fire",
@@ -2100,12 +2583,12 @@
     {
       "type": "group",
       "name": "map textures",
-      "expanded": true,
+      "expanded": false,
       "children": [
         {
           "type": "group",
           "name": "map",
-          "expanded": false,
+          "expanded": true,
           "children": [
             {
               "name": "ceiling texture",
@@ -2192,16 +2675,59 @@
               ],
               "mode": "id",
               "enabled": true,
-              "with_id": 54447848
+              "with_id": 152239518
             },
             {
-              "name": "concrete floor texture",
-              "replace_ids": [
-                4041792735
-              ],
-              "mode": "id",
-              "enabled": true,
-              "with_id": 9822120576
+              "type": "group",
+              "name": "ever so mysterious concrete",
+              "expanded": true,
+              "children": [
+                {
+                  "name": "concrete floor texture",
+                  "replace_ids": [
+                    4041792735
+                  ],
+                  "mode": "id",
+                  "enabled": true,
+                  "with_id": 53892838
+                },
+                {
+                  "name": "concrete wall texture",
+                  "replace_ids": [
+                    4041798137
+                  ],
+                  "mode": "id",
+                  "enabled": true,
+                  "with_id": 19892524
+                },
+                {
+                  "name": "concrete floor2  texture guess",
+                  "replace_ids": [
+                    655298334
+                  ],
+                  "mode": "id",
+                  "enabled": true,
+                  "with_id": 132879294
+                },
+                {
+                  "name": "concrete wall2 texture",
+                  "replace_ids": [
+                    655314008
+                  ],
+                  "mode": "id",
+                  "enabled": true,
+                  "with_id": 132879294
+                },
+                {
+                  "name": "concrete floor3 texture guess",
+                  "replace_ids": [
+                    91626509
+                  ],
+                  "mode": "id",
+                  "enabled": true,
+                  "with_id": 53893107
+                }
+              ]
             },
             {
               "name": "dirty metal texture",
@@ -2227,16 +2753,6 @@
               "mode": "id",
               "enabled": true,
               "with_id": 19959771
-            },
-            {
-              "name": "concrete wall texture",
-              "replace_ids": [
-                4041798137,
-                655314008
-              ],
-              "mode": "id",
-              "enabled": true,
-              "with_id": 12704959
             },
             {
               "name": "metal3 texture",
@@ -2280,23 +2796,13 @@
               "mode": "id",
               "enabled": true,
               "with_id": 17716663
-            },
-            {
-              "name": "concrete floor2  texture guess",
-              "replace_ids": [
-                655298334,
-                91626509
-              ],
-              "mode": "id",
-              "enabled": true,
-              "with_id": 2887714
             }
           ]
         },
         {
           "type": "group",
           "name": "posters",
-          "expanded": true,
+          "expanded": false,
           "children": [
             {
               "name": "random poster 1",
@@ -2363,7 +2869,7 @@
         {
           "type": "group",
           "name": "blastdoors textures",
-          "expanded": true,
+          "expanded": false,
           "children": [
             {
               "name": "blast door texture",
@@ -2479,7 +2985,7 @@
     {
       "type": "group",
       "name": "secondary models",
-      "expanded": false,
+      "expanded": true,
       "children": [
         {
           "type": "group",
@@ -2538,24 +3044,6 @@
       "with_id": 137742917016065
     },
     {
-      "name": "site manager shirt",
-      "replace_ids": [
-        7825353601
-      ],
-      "mode": "id",
-      "enabled": true,
-      "with_id": 5508622057
-    },
-    {
-      "name": "site manager pants",
-      "replace_ids": [
-        386302776
-      ],
-      "mode": "id",
-      "enabled": true,
-      "with_id": 5508633712
-    },
-    {
       "type": "group",
       "name": "foundation escapes",
       "expanded": false,
@@ -2595,6 +3083,24 @@
           "mode": "id",
           "enabled": true,
           "with_id": 85298304715079
+        },
+        {
+          "name": "site manager shirt",
+          "replace_ids": [
+            7825353601
+          ],
+          "mode": "id",
+          "enabled": true,
+          "with_id": 5508622057
+        },
+        {
+          "name": "site manager pants",
+          "replace_ids": [
+            386302776
+          ],
+          "mode": "id",
+          "enabled": true,
+          "with_id": 5508633712
         }
       ]
     },
@@ -2629,25 +3135,68 @@
           "mode": "id",
           "enabled": true,
           "with_id": 124800437977589
+        },
+        {
+          "name": "grup expendable shirt",
+          "replace_ids": [
+            131270001687223
+          ],
+          "mode": "id",
+          "enabled": true,
+          "with_id": 157653566
+        },
+        {
+          "name": "grup expendable pants",
+          "replace_ids": [
+            91361442895165
+          ],
+          "mode": "id",
+          "enabled": true,
+          "with_id": 157653566
         }
       ]
     },
     {
-      "name": "173 chest",
-      "replace_ids": [
-        5668420368
-      ],
-      "mode": "id",
-      "enabled": true
-    },
-    {
-      "name": "173 head and lower half",
-      "replace_ids": [
-        5668420827
-      ],
-      "mode": "id",
-      "enabled": true,
-      "with_id": 83875096738166
+      "type": "group",
+      "name": "scp 173",
+      "expanded": false,
+      "children": [
+        {
+          "name": "173 chest",
+          "replace_ids": [
+            5668420368
+          ],
+          "mode": "id",
+          "enabled": true
+        },
+        {
+          "name": "173 head and lower half",
+          "replace_ids": [
+            5668420827
+          ],
+          "mode": "id",
+          "enabled": true,
+          "with_id": 83875096738166
+        },
+        {
+          "name": "173 teleport sound",
+          "replace_ids": [
+            7785668624
+          ],
+          "mode": "id",
+          "enabled": true,
+          "with_id": 135336734274053
+        },
+        {
+          "name": "173 textures",
+          "replace_ids": [
+            5668413283
+          ],
+          "mode": "id",
+          "enabled": true,
+          "with_id": 152572215
+        }
+      ]
     },
     {
       "name": "security guard pants",
@@ -2669,109 +3218,328 @@
     },
     {
       "type": "group",
-      "name": "UIU clothing",
+      "name": "UIU stuff",
       "expanded": false,
       "children": [
         {
-          "name": "UIU trooper1 shirt",
-          "replace_ids": [
-            2683801476
-          ],
-          "mode": "id",
-          "enabled": true,
-          "with_id": 9859131
+          "type": "group",
+          "name": "UIU sounds",
+          "expanded": true,
+          "children": [
+            {
+              "name": "UIU SW intercoms",
+              "replace_ids": [
+                125806376198630
+              ],
+              "mode": "id",
+              "enabled": true,
+              "with_id": 3400851228
+            },
+            {
+              "name": "UIU theme SW intercoms",
+              "replace_ids": [
+                103115091635199
+              ],
+              "mode": "local",
+              "enabled": true,
+              "local_path": "D:/AL lobotomy edition/apply local assets fleasion/local assets/UIU/UIU theme SW intercoms.mp3"
+            },
+            {
+              "name": "UIU theme commander",
+              "replace_ids": [
+                108727902654383
+              ],
+              "mode": "local",
+              "enabled": true,
+              "local_path": "D:/AL lobotomy edition/apply local assets fleasion/local assets/UIU/UIU theme commander.mp3"
+            }
+          ]
         },
         {
-          "name": "UIU trooper1 pants",
-          "replace_ids": [
-            118005535
-          ],
-          "mode": "id",
-          "enabled": true,
-          "with_id": 9859149
-        },
-        {
-          "name": "UIU trooper2 shirt",
-          "replace_ids": [
-            410641562
-          ],
-          "mode": "id",
-          "enabled": true,
-          "with_id": 588663259
-        },
-        {
-          "name": "UIU trooper2 pants",
-          "replace_ids": [
-            393539641
-          ],
-          "mode": "id",
-          "enabled": true,
-          "with_id": 4428664388
-        },
-        {
-          "name": "UIU trooper3 pants",
-          "replace_ids": [
-            233558438
-          ],
-          "mode": "id",
-          "enabled": true,
-          "with_id": 252315501
-        },
-        {
-          "name": "UIU trooper3 shirt",
-          "replace_ids": [
-            186284274
-          ],
-          "mode": "id",
-          "enabled": true,
-          "with_id": 252315488
-        },
-        {
-          "name": "UIU trooper4 shirt",
-          "replace_ids": [
-            361388649
-          ],
-          "mode": "id",
-          "enabled": true,
-          "with_id": 31774908
-        },
-        {
-          "name": "UIU trooper4 pants",
-          "replace_ids": [
-            361370041
-          ],
-          "mode": "id",
-          "enabled": true,
-          "with_id": 31775056
+          "type": "group",
+          "name": "UIU clothing",
+          "expanded": false,
+          "children": [
+            {
+              "name": "UIU trooper1 shirt",
+              "replace_ids": [
+                2683801476
+              ],
+              "mode": "id",
+              "enabled": true,
+              "with_id": 9859131
+            },
+            {
+              "name": "UIU trooper1 pants",
+              "replace_ids": [
+                118005535
+              ],
+              "mode": "id",
+              "enabled": true,
+              "with_id": 9859149
+            },
+            {
+              "name": "UIU trooper2 shirt",
+              "replace_ids": [
+                410641562
+              ],
+              "mode": "id",
+              "enabled": true,
+              "with_id": 588663259
+            },
+            {
+              "name": "UIU trooper2 pants",
+              "replace_ids": [
+                393539641
+              ],
+              "mode": "id",
+              "enabled": true,
+              "with_id": 4428664388
+            },
+            {
+              "name": "UIU trooper3 pants",
+              "replace_ids": [
+                233558438
+              ],
+              "mode": "id",
+              "enabled": true,
+              "with_id": 252315501
+            },
+            {
+              "name": "UIU trooper3 shirt",
+              "replace_ids": [
+                186284274
+              ],
+              "mode": "id",
+              "enabled": true,
+              "with_id": 252315488
+            },
+            {
+              "name": "UIU trooper4 shirt",
+              "replace_ids": [
+                361388649
+              ],
+              "mode": "id",
+              "enabled": true,
+              "with_id": 31774908
+            },
+            {
+              "name": "UIU trooper4 pants",
+              "replace_ids": [
+                361370041
+              ],
+              "mode": "id",
+              "enabled": true,
+              "with_id": 31775056
+            },
+            {
+              "name": "UIU logo",
+              "replace_ids": [
+                136453257851092
+              ],
+              "mode": "id",
+              "enabled": true,
+              "with_id": 37762796
+            },
+            {
+              "name": "UIU commander beret",
+              "replace_ids": [
+                8040848570
+              ],
+              "mode": "id",
+              "enabled": true,
+              "with_id": 118207910342330
+            },
+            {
+              "name": "UIU commander gun/Tar stock model",
+              "replace_ids": [
+                3763908342
+              ],
+              "mode": "id",
+              "enabled": true,
+              "with_id": 106495885505438
+            },
+            {
+              "name": "UIU Commander pants",
+              "replace_ids": [
+                9246288610
+              ],
+              "mode": "id",
+              "enabled": true,
+              "with_id": 252315501
+            },
+            {
+              "name": "UIU Commander shirts",
+              "replace_ids": [
+                9246287940
+              ],
+              "mode": "id",
+              "enabled": true,
+              "with_id": 252315488
+            },
+            {
+              "name": "UIU Commander beret Textures",
+              "replace_ids": [
+                8040857637
+              ],
+              "mode": "id",
+              "enabled": true,
+              "with_id": 480143411
+            },
+            {
+              "name": "UIU commander vest textures",
+              "replace_ids": [
+                99504946945594
+              ],
+              "mode": "id",
+              "enabled": true,
+              "with_id": 477180499
+            }
+          ]
         }
       ]
     },
     {
-      "name": "UIU SW intercoms",
+      "name": "security helmet model",
       "replace_ids": [
-        125806376198630
+        3928458429
       ],
       "mode": "id",
       "enabled": true,
-      "with_id": 3400851228
+      "with_id": 16378067
     },
     {
-      "name": "UIU theme SW intercoms",
+      "name": "security helmet texture",
       "replace_ids": [
-        103115091635199
+        5243417662,
+        3928370427
+      ],
+      "mode": "id",
+      "enabled": true,
+      "with_id": 16378055
+    },
+    {
+      "name": "random static",
+      "replace_ids": [
+        132582893753881
+      ],
+      "mode": "id",
+      "enabled": true,
+      "with_id": 79269122830574
+    },
+    {
+      "name": "geist hunt start",
+      "replace_ids": [
+        74359056837668
+      ],
+      "mode": "id",
+      "enabled": true,
+      "with_id": 100291689357029
+    },
+    {
+      "name": "chat text",
+      "replace_ids": [
+        6564956178
+      ],
+      "mode": "id",
+      "enabled": true,
+      "with_id": 12221976
+    },
+    {
+      "name": "crystal sound",
+      "replace_ids": [
+        9128715565
+      ],
+      "mode": "id",
+      "enabled": true,
+      "with_id": 179363266
+    },
+    {
+      "name": "087 jumpscare",
+      "replace_ids": [
+        6092567986
+      ],
+      "mode": "id",
+      "enabled": true,
+      "with_id": 117862559700716
+    },
+    {
+      "name": "914 sound",
+      "replace_ids": [
+        13914048717,
+        382578144
       ],
       "mode": "local",
       "enabled": true,
-      "local_path": "D:\\AL lobotomy edition\\custom sounds\\UIU\\CPV intercom.mp3"
+      "local_path": "D:/AL lobotomy edition/apply local assets fleasion/local assets/SCP items/914 sound.mp3"
     },
     {
-      "name": "UIU theme commander",
+      "name": "nuke music",
       "replace_ids": [
-        108727902654383
+        1842437448
       ],
       "mode": "local",
       "enabled": true,
-      "local_path": "D:\\AL lobotomy edition\\custom sounds\\UIU\\CPV.mp3"
+      "local_path": "D:/AL lobotomy edition/apply local assets fleasion/local assets/nuke music.mp3"
+    },
+    {
+      "name": "grenade explode",
+      "replace_ids": [
+        2689242256
+      ],
+      "mode": "id",
+      "enabled": true,
+      "with_id": 123161738093681
+    },
+    {
+      "type": "group",
+      "name": "NTF stuff",
+      "expanded": false,
+      "children": [
+        {
+          "type": "group",
+          "name": "NTF sounds",
+          "expanded": true,
+          "children": [
+            {
+              "name": "NTF theme commander",
+              "replace_ids": [
+                84655025799980
+              ],
+              "mode": "local",
+              "enabled": true,
+              "local_path": "D:/AL lobotomy edition/apply local assets fleasion/local assets/NTF/NTF theme commander.mp3"
+            },
+            {
+              "name": "NTF SW intercoms",
+              "replace_ids": [
+                114096587803594
+              ],
+              "mode": "local",
+              "enabled": true,
+              "local_path": "D:/AL lobotomy edition/apply local assets fleasion/local assets/NTF/NTF SW intercoms.wav"
+            },
+            {
+              "name": "NTF theme SW intercoms",
+              "replace_ids": [
+                83912633358655
+              ],
+              "mode": "local",
+              "enabled": true,
+              "local_path": "D:/AL lobotomy edition/apply local assets fleasion/local assets/NTF/NTF theme SW intercoms.mp3"
+            }
+          ]
+        },
+        {
+          "name": "NTF logo",
+          "replace_ids": [
+            1433788937
+          ],
+          "mode": "id",
+          "enabled": true,
+          "with_id": 13832226161
+        }
+      ]
     },
     {
       "name": "taser model",
@@ -2792,13 +3560,391 @@
       "with_id": 99866675
     },
     {
-      "name": "flash banged",
+      "type": "group",
+      "name": "announcer counts",
+      "expanded": false,
+      "children": [
+        {
+          "name": "announcer one",
+          "replace_ids": [
+            83512591078286
+          ],
+          "mode": "local",
+          "enabled": true,
+          "local_path": "D:/AL lobotomy edition/apply local assets fleasion/local assets/intercom stuff/announcer stuff/countdowns/announcer one.mp3"
+        },
+        {
+          "name": "announcer two",
+          "replace_ids": [
+            123551164212875
+          ],
+          "mode": "local",
+          "enabled": true,
+          "local_path": "D:/AL lobotomy edition/apply local assets fleasion/local assets/intercom stuff/announcer stuff/countdowns/announcer two.mp3"
+        },
+        {
+          "name": "announcer three",
+          "replace_ids": [
+            130180690027008
+          ],
+          "mode": "local",
+          "enabled": true,
+          "local_path": "D:/AL lobotomy edition/apply local assets fleasion/local assets/intercom stuff/announcer stuff/countdowns/announcer three.mp3"
+        },
+        {
+          "name": "announcer four",
+          "replace_ids": [
+            125454249288739
+          ],
+          "mode": "local",
+          "enabled": true,
+          "local_path": "D:/AL lobotomy edition/apply local assets fleasion/local assets/intercom stuff/announcer stuff/countdowns/announcer four.mp3"
+        },
+        {
+          "name": "announcer five",
+          "replace_ids": [
+            138860074517581
+          ],
+          "mode": "local",
+          "enabled": true,
+          "local_path": "D:/AL lobotomy edition/apply local assets fleasion/local assets/intercom stuff/announcer stuff/countdowns/announcer five.mp3"
+        },
+        {
+          "name": "announcer six",
+          "replace_ids": [
+            91360566224527
+          ],
+          "mode": "local",
+          "enabled": true,
+          "local_path": "D:/AL lobotomy edition/apply local assets fleasion/local assets/intercom stuff/announcer stuff/countdowns/announcer six.mp3"
+        },
+        {
+          "name": "announcer seven",
+          "replace_ids": [
+            95731040932883
+          ],
+          "mode": "local",
+          "enabled": true,
+          "local_path": "D:/AL lobotomy edition/apply local assets fleasion/local assets/intercom stuff/announcer stuff/countdowns/announcer seven.mp3"
+        },
+        {
+          "name": "announcer eight",
+          "replace_ids": [
+            93236937166396
+          ],
+          "mode": "local",
+          "enabled": true,
+          "local_path": "D:/AL lobotomy edition/apply local assets fleasion/local assets/intercom stuff/announcer stuff/countdowns/announcer eight.mp3"
+        },
+        {
+          "name": "announcer nine",
+          "replace_ids": [
+            99279155126199
+          ],
+          "mode": "local",
+          "enabled": true,
+          "local_path": "D:/AL lobotomy edition/apply local assets fleasion/local assets/intercom stuff/announcer stuff/countdowns/announcer nine.mp3"
+        },
+        {
+          "name": "announcer ten",
+          "replace_ids": [
+            124158908999991
+          ],
+          "mode": "local",
+          "enabled": true,
+          "local_path": "D:/AL lobotomy edition/apply local assets fleasion/local assets/intercom stuff/announcer stuff/countdowns/announcer ten.mp3"
+        },
+        {
+          "name": "announcer zero",
+          "replace_ids": [
+            98567545836381
+          ],
+          "mode": "local",
+          "enabled": true,
+          "local_path": "D:/AL lobotomy edition/apply local assets fleasion/local assets/intercom stuff/announcer stuff/countdowns/announcer zero.mp3"
+        },
+        {
+          "name": "announcer eleven",
+          "replace_ids": [
+            138543842622529
+          ],
+          "mode": "local",
+          "enabled": true,
+          "local_path": "D:/AL lobotomy edition/apply local assets fleasion/local assets/intercom stuff/announcer stuff/countdowns/announcer eleven.mp3"
+        },
+        {
+          "name": "announcer twelve",
+          "replace_ids": [
+            80459557144863
+          ],
+          "mode": "local",
+          "enabled": true,
+          "local_path": "D:/AL lobotomy edition/apply local assets fleasion/local assets/intercom stuff/announcer stuff/countdowns/announcer twelve.mp3"
+        },
+        {
+          "name": "announcer thirteen",
+          "replace_ids": [
+            79002467574284
+          ],
+          "mode": "local",
+          "enabled": true,
+          "local_path": "D:/AL lobotomy edition/apply local assets fleasion/local assets/intercom stuff/announcer stuff/countdowns/announcer thirteen.mp3"
+        },
+        {
+          "name": "announcer fourteen",
+          "replace_ids": [
+            130111996969747
+          ],
+          "mode": "local",
+          "enabled": true,
+          "local_path": "D:/AL lobotomy edition/apply local assets fleasion/local assets/intercom stuff/announcer stuff/countdowns/announcer fourteen.mp3"
+        },
+        {
+          "name": "announcer fifteen",
+          "replace_ids": [
+            82222739805278
+          ],
+          "mode": "local",
+          "enabled": true,
+          "local_path": "D:/AL lobotomy edition/apply local assets fleasion/local assets/intercom stuff/announcer stuff/countdowns/announcer fifteen.mp3"
+        },
+        {
+          "name": "announcer sixteen",
+          "replace_ids": [
+            87493352134011
+          ],
+          "mode": "local",
+          "enabled": true,
+          "local_path": "D:/AL lobotomy edition/apply local assets fleasion/local assets/intercom stuff/announcer stuff/countdowns/announcer sixteen.mp3"
+        },
+        {
+          "name": "announcer seventeen",
+          "replace_ids": [
+            120820820474305
+          ],
+          "mode": "local",
+          "enabled": true,
+          "local_path": "D:/AL lobotomy edition/apply local assets fleasion/local assets/intercom stuff/announcer stuff/countdowns/announcer seventeen.mp3"
+        },
+        {
+          "name": "announcer eighteen",
+          "replace_ids": [
+            136352586244372
+          ],
+          "mode": "local",
+          "enabled": true,
+          "local_path": "D:/AL lobotomy edition/apply local assets fleasion/local assets/intercom stuff/announcer stuff/countdowns/announcer eighteen.mp3"
+        },
+        {
+          "name": "announcer nineteen",
+          "replace_ids": [
+            117360977916085
+          ],
+          "mode": "local",
+          "enabled": true,
+          "local_path": "D:/AL lobotomy edition/apply local assets fleasion/local assets/intercom stuff/announcer stuff/countdowns/announcer nineteen.mp3"
+        },
+        {
+          "name": "announcer twenty",
+          "replace_ids": [
+            103282706467500
+          ],
+          "mode": "local",
+          "enabled": true,
+          "local_path": "D:/AL lobotomy edition/apply local assets fleasion/local assets/intercom stuff/announcer stuff/countdowns/announcer twenty.mp3"
+        },
+        {
+          "name": "announcer over twenty",
+          "replace_ids": [
+            118892948013902
+          ],
+          "mode": "local",
+          "enabled": true,
+          "local_path": "D:/AL lobotomy edition/apply local assets fleasion/local assets/intercom stuff/announcer stuff/countdowns/announcer over twenty.mp3"
+        }
+      ]
+    },
+    {
+      "name": "scientist shirt",
       "replace_ids": [
-        73829807478960
+        3951313171
       ],
       "mode": "id",
       "enabled": true,
-      "with_id": 129710406245892
+      "with_id": 99263690144631
+    },
+    {
+      "name": "scientist pants 2",
+      "replace_ids": [
+        329020566
+      ],
+      "mode": "id",
+      "enabled": true,
+      "with_id": 665010379
+    },
+    {
+      "name": "scientist shirt2",
+      "replace_ids": [
+        776999461
+      ],
+      "mode": "id",
+      "enabled": true,
+      "with_id": 665009979
+    },
+    {
+      "type": "group",
+      "name": "announcer PR",
+      "expanded": true,
+      "children": [
+        {
+          "name": "personnel report start",
+          "replace_ids": [
+            123476190799897
+          ],
+          "mode": "local",
+          "enabled": true,
+          "local_path": "D:/AL lobotomy edition/apply local assets fleasion/local assets/intercom stuff/announcer stuff/personnel report/personnel report start.wav"
+        },
+        {
+          "name": "personnel report FP",
+          "replace_ids": [
+            98229162443962
+          ],
+          "mode": "local",
+          "enabled": true,
+          "local_path": "D:/AL lobotomy edition/apply local assets fleasion/local assets/intercom stuff/announcer stuff/personnel report/personnel report FP.wav"
+        },
+        {
+          "name": "personnel report CI",
+          "replace_ids": [
+            113783924543767
+          ],
+          "mode": "local",
+          "enabled": true,
+          "local_path": "D:/AL lobotomy edition/apply local assets fleasion/local assets/intercom stuff/announcer stuff/personnel report/personnel report CI.wav"
+        },
+        {
+          "name": "personnel report NTF",
+          "replace_ids": [
+            135238802611746
+          ],
+          "mode": "local",
+          "enabled": true,
+          "local_path": "D:/AL lobotomy edition/apply local assets fleasion/local assets/intercom stuff/announcer stuff/personnel report/personnel report NTF.wav"
+        },
+        {
+          "name": "personnel report CD",
+          "replace_ids": [
+            76056576129375
+          ],
+          "mode": "local",
+          "enabled": true,
+          "local_path": "D:/AL lobotomy edition/apply local assets fleasion/local assets/intercom stuff/announcer stuff/personnel report/personnel report CD.wav"
+        },
+        {
+          "name": "personnel report GOC",
+          "replace_ids": [
+            130355748413570
+          ],
+          "mode": "local",
+          "enabled": true,
+          "local_path": "D:/AL lobotomy edition/apply local assets fleasion/local assets/intercom stuff/announcer stuff/personnel report/personnel report GOC.wav"
+        },
+        {
+          "name": "announcer SCP",
+          "replace_ids": [
+            102684597676110
+          ],
+          "mode": "local",
+          "enabled": true,
+          "local_path": "D:/AL lobotomy edition/apply local assets fleasion/local assets/intercom stuff/announcer stuff/personnel report/Announcer SCP.wav"
+        },
+        {
+          "name": "personnel report SCPs",
+          "replace_ids": [
+            88772557211977
+          ],
+          "mode": "local",
+          "enabled": true,
+          "local_path": "D:/AL lobotomy edition/apply local assets fleasion/local assets/intercom stuff/announcer stuff/personnel report/personnel report SCPs.wav"
+        },
+        {
+          "name": "Announcer SCP Recontained",
+          "replace_ids": [
+            85451136100269
+          ],
+          "mode": "local",
+          "enabled": true,
+          "local_path": "D:\\AL lobotomy edition\\apply local assets fleasion\\local assets\\intercom stuff\\announcer stuff\\personnel report\\Announcer SCP Recontained.wav"
+        }
+      ]
+    },
+    {
+      "name": "blood splatters",
+      "replace_ids": [
+        73547327,
+        315056326,
+        10353789730,
+        10353787635,
+        10353788618,
+        6863895345
+      ],
+      "mode": "id",
+      "enabled": true,
+      "with_id": 13294091976
+    },
+    {
+      "name": "scientist pants",
+      "replace_ids": [
+        2119997705
+      ],
+      "mode": "id",
+      "enabled": true,
+      "with_id": 125174626676204
+    },
+    {
+      "name": "snow",
+      "replace_ids": [
+        99851851
+      ],
+      "mode": "local",
+      "enabled": true,
+      "local_path": "D:/AL lobotomy edition/apply local assets fleasion/local assets/gui stuff/snow.png"
+    },
+    {
+      "name": "pain indicator",
+      "replace_ids": [
+        129006627631629
+      ],
+      "mode": "id",
+      "enabled": true,
+      "with_id": 15798402842
+    },
+    {
+      "name": "smoke",
+      "replace_ids": [
+        404342776
+      ],
+      "mode": "id",
+      "enabled": true
+    },
+    {
+      "name": "new lobby radio theme",
+      "replace_ids": [
+        130220660818593
+      ],
+      "mode": "local",
+      "enabled": true,
+      "local_path": "D:/AL lobotomy edition/apply local assets fleasion/local assets/lobby stuff/new lobby radio theme.mp3"
+    },
+    {
+      "name": "riot shield textures",
+      "replace_ids": [
+        113296834198635
+      ],
+      "mode": "local",
+      "enabled": true,
+      "local_path": "D:\\AL lobotomy edition\\apply local assets fleasion\\local assets\\riot shield textures.png"
     }
   ]
 }
